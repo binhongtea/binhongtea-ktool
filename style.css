@@ -1,0 +1,175 @@
+.mdui-appbar-with-searchbar {
+  padding-top: 64px;
+}
+.search-bar {
+  display: flex;
+  margin: 7px 8px 8px;
+  height: 49px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .24);
+  background: #FAFAFA;
+  align-items: center;
+  border-radius: 25px;
+}
+.search-bar > input {
+  flex: 1 1;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 100%;
+  margin: 0 16px;
+  outline: none;
+  color: rgba(0, 0, 0, .87);
+}
+.search-bar > input::placeholder {
+  color: rgba(0, 0, 0, .54);
+}
+.search-bar > .mdui-icon {
+  margin: 0 16px;
+}
+.search-bar > .mdui-btn-icon {
+  margin: auto 11px;
+}
+/*暗色模式支持*/
+.mdui-theme-layout-dark .search-bar {
+  background: #424242;
+}
+.mdui-theme-layout-dark .search-bar > input {
+  color: white;
+}
+.mdui-theme-layout-dark .search-bar > input::placeholder {
+  color: rgba(255, 255, 255, .70);
+}
+
+/* */
+@font-face {
+    font-family: ruancang;
+    font-weight: 400;
+    src: url(https://dsfs.oppo.com/oppo/shop-pc-v2/main/fonts/OPPOSans-Regular.39ccf2a.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: ruancang;
+    font-weight: 500;
+    src: url(https://dsfs.oppo.com/oppo/shop-pc-v2/main/fonts/OPPOSans-Medium.621326d.ttf) format("truetype")
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+input {
+    font-family: "ruancang", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0 auto;
+}
+body a{
+    text-decoration: none;
+}
+.header{
+    margin-top: 30vh;
+}
+
+.header h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header h2 span{
+    font-weight: 500;
+    font-size: 30px;
+    color: #42505c;
+}
+
+#sousuo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+
+.iterm-box {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    border-bottom: 1px solid #e8f1ef;
+    padding: 15px 0;
+}
+
+.iterm-box a {
+    width: 100%;
+    color: #333;
+}
+
+.iterm-box .highlight {
+    background: #d7efea;
+    margin: 0px 1px;
+    border-radius: 4px;
+    padding: 0px 2px;
+    font-size: 16px;
+}
+
+.iterm-box .iterm-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #bfbfbf;
+}
+
+.deleteAll{
+    display: none;
+    justify-content: center;
+    color: #89ceb9;
+    margin-bottom: 8px;
+}
+
+#content{
+    width: 45vw;
+    margin: 0 auto;
+}
+
+#btr{
+    width: 45vw;
+    margin: 0 auto;
+}
+.toTop{
+    display: none;
+    position: fixed;
+    border-radius: 16px;
+    right: 2vw;
+    top: 80vh;
+}
+
+
+.header.issearch{
+    margin: 2vh 0;
+}
+#ssInput.issearch{
+    width: 48vw;
+}
+
+@media screen and (max-width: 768px) {
+    #ssInput {
+        width: 80vw;
+    }
+    #ssInput.issearch{
+        width: 85vw;
+    }
+    #content {
+        width: 85vw;
+        margin: 0 auto;
+    }
+    #btr {
+        width: 85vw;
+        margin: 0 auto;
+    }
+
+}

@@ -1,0 +1,15 @@
+{
+    "name": "音乐播放器",
+    "short_name": "音乐播放器",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#009688",
+    "background_color": "#fff",
+    "id": "./index11.html",
+    "icons": [
+        {
+            "src": "./favicon.ico",
+            "type": "image/png"
+        }
+    ]
+}
