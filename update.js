@@ -22,6 +22,6 @@ function update(){
         }
       }
     };
-    xmlHttp.open("GET","https://dev.azure.com/binhongtea/2ce22ed8-a232-42f5-b589-60de2a245adc/_apis/git/repositories/fdaf202f-4e72-416a-86cc-143f5469b8d6/items?path=/version.json",true);
+    xmlHttp.open("GET","https://binhongtea.github.io/version.json",true);
     xmlHttp.send();
 }
