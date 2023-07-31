@@ -1,0 +1,41 @@
+
+Turnarounds.png
+size: 202,202
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body1
+  rotate: false
+  xy: 2, 73
+  size: 154, 127
+  orig: 154, 127
+  offset: 0, 0
+  index: -1
+EarL
+  rotate: true
+  xy: 89, 44
+  size: 27, 41
+  orig: 29, 43
+  offset: 1, 1
+  index: -1
+EarR
+  rotate: false
+  xy: 132, 30
+  size: 26, 41
+  orig: 28, 43
+  offset: 1, 1
+  index: -1
+Head
+  rotate: true
+  xy: 2, 2
+  size: 69, 85
+  orig: 71, 87
+  offset: 1, 1
+  index: -1
+Leg1
+  rotate: true
+  xy: 89, 22
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1

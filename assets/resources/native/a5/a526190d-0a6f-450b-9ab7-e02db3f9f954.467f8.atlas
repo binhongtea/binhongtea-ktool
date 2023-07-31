@@ -1,0 +1,167 @@
+
+DJ2.png
+size: 515,515
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DJ2/Arm1
+  rotate: false
+  xy: 464, 125
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+DJ2/Arm2
+  rotate: false
+  xy: 266, 142
+  size: 16, 27
+  orig: 16, 27
+  offset: 0, 0
+  index: -1
+DJ2/DJ
+  rotate: false
+  xy: 2, 381
+  size: 166, 132
+  orig: 166, 132
+  offset: 0, 0
+  index: -1
+DJ2/Head
+  rotate: true
+  xy: 292, 104
+  size: 135, 136
+  orig: 135, 136
+  offset: 0, 0
+  index: -1
+The01_2/Arm1
+  rotate: true
+  xy: 359, 54
+  size: 48, 62
+  orig: 48, 62
+  offset: 0, 0
+  index: -1
+The01_2/Arm2
+  rotate: true
+  xy: 76, 15
+  size: 16, 26
+  orig: 16, 26
+  offset: 0, 0
+  index: -1
+The01_2/ArmR1
+  rotate: false
+  xy: 464, 167
+  size: 43, 67
+  orig: 43, 67
+  offset: 0, 0
+  index: -1
+The01_2/DJ0
+  rotate: true
+  xy: 2, 201
+  size: 178, 120
+  orig: 178, 120
+  offset: 0, 0
+  index: -1
+The01_2/DJ1
+  rotate: true
+  xy: 2, 33
+  size: 166, 113
+  orig: 166, 113
+  offset: 0, 0
+  index: -1
+The01_2/DJ2
+  rotate: false
+  xy: 124, 171
+  size: 166, 76
+  orig: 166, 76
+  offset: 0, 0
+  index: -1
+The01_2/Head
+  rotate: true
+  xy: 292, 241
+  size: 135, 148
+  orig: 135, 148
+  offset: 0, 0
+  index: -1
+The01_2/Mustache0
+  rotate: true
+  xy: 2, 12
+  size: 19, 72
+  orig: 19, 72
+  offset: 0, 0
+  index: -1
+The01_2/Mustache1
+  rotate: true
+  xy: 266, 48
+  size: 54, 91
+  orig: 54, 91
+  offset: 0, 0
+  index: -1
+The01_2/Smart1
+  rotate: true
+  xy: 442, 236
+  size: 140, 32
+  orig: 140, 32
+  offset: 0, 0
+  index: -1
+The01_2/Smart2
+  rotate: true
+  xy: 476, 236
+  size: 140, 32
+  orig: 140, 32
+  offset: 0, 0
+  index: -1
+The01_2/Smart3
+  rotate: true
+  xy: 430, 94
+  size: 140, 32
+  orig: 140, 32
+  offset: 0, 0
+  index: -1
+The02_2/Arm1
+  rotate: false
+  xy: 309, 6
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+The02_2/Arm2
+  rotate: true
+  xy: 464, 92
+  size: 31, 35
+  orig: 31, 35
+  offset: 0, 0
+  index: -1
+The02_2/DJ1
+  rotate: false
+  xy: 124, 249
+  size: 166, 130
+  orig: 166, 130
+  offset: 0, 0
+  index: -1
+The02_2/Head
+  rotate: true
+  xy: 117, 29
+  size: 140, 147
+  orig: 140, 147
+  offset: 0, 0
+  index: -1
+The03_2/Arm1
+  rotate: false
+  xy: 266, 2
+  size: 41, 44
+  orig: 41, 44
+  offset: 0, 0
+  index: -1
+The03_2/DJ1
+  rotate: false
+  xy: 170, 381
+  size: 166, 132
+  orig: 166, 132
+  offset: 0, 0
+  index: -1
+The03_2/Head
+  rotate: true
+  xy: 338, 378
+  size: 135, 158
+  orig: 135, 158
+  offset: 0, 0
+  index: -1

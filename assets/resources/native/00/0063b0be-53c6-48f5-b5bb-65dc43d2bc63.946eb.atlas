@@ -1,0 +1,104 @@
+
+Alpaca02.png
+size: 335,335
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Base1
+  rotate: true
+  xy: 2, 6
+  size: 183, 83
+  orig: 183, 83
+  offset: 0, 0
+  index: -1
+Body1
+  rotate: false
+  xy: 2, 191
+  size: 148, 142
+  orig: 148, 142
+  offset: 0, 0
+  index: -1
+Bulb1
+  rotate: false
+  xy: 152, 217
+  size: 151, 23
+  orig: 151, 23
+  offset: 0, 0
+  index: -1
+Bulb2
+  rotate: true
+  xy: 87, 34
+  size: 155, 35
+  orig: 155, 35
+  offset: 0, 0
+  index: -1
+Collar1
+  rotate: false
+  xy: 154, 28
+  size: 89, 54
+  orig: 89, 54
+  offset: 0, 0
+  index: -1
+Collar2
+  rotate: false
+  xy: 245, 29
+  size: 23, 54
+  orig: 23, 54
+  offset: 0, 0
+  index: -1
+Ear1
+  rotate: true
+  xy: 87, 12
+  size: 20, 41
+  orig: 20, 41
+  offset: 0, 0
+  index: -1
+HairL
+  rotate: false
+  xy: 154, 84
+  size: 62, 101
+  orig: 62, 101
+  offset: 0, 0
+  index: -1
+HairR
+  rotate: false
+  xy: 218, 85
+  size: 58, 100
+  orig: 58, 100
+  offset: 0, 0
+  index: -1
+Head1
+  rotate: true
+  xy: 152, 242
+  size: 91, 162
+  orig: 91, 162
+  offset: 0, 0
+  index: -1
+Shad
+  rotate: true
+  xy: 278, 69
+  size: 116, 14
+  orig: 116, 14
+  offset: 0, 0
+  index: -1
+Speed1
+  rotate: true
+  xy: 305, 94
+  size: 146, 28
+  orig: 146, 28
+  offset: 0, 0
+  index: -1
+Speed2
+  rotate: true
+  xy: 124, 43
+  size: 146, 28
+  orig: 146, 28
+  offset: 0, 0
+  index: -1
+Speed3
+  rotate: false
+  xy: 154, 187
+  size: 146, 28
+  orig: 146, 28
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+Alpaca01.png
+size: 318,318
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Base1
+  rotate: false
+  xy: 2, 47
+  size: 183, 83
+  orig: 183, 83
+  offset: 0, 0
+  index: -1
+Body1
+  rotate: true
+  xy: 120, 168
+  size: 148, 142
+  orig: 148, 142
+  offset: 0, 0
+  index: -1
+Bulb1
+  rotate: true
+  xy: 293, 165
+  size: 151, 23
+  orig: 151, 23
+  offset: 0, 0
+  index: -1
+Bulb2
+  rotate: false
+  xy: 2, 10
+  size: 155, 35
+  orig: 155, 35
+  offset: 0, 0
+  index: -1
+First1
+  rotate: false
+  xy: 159, 18
+  size: 146, 27
+  orig: 146, 27
+  offset: 0, 0
+  index: -1
+First2
+  rotate: false
+  xy: 120, 139
+  size: 146, 27
+  orig: 146, 27
+  offset: 0, 0
+  index: -1
+First3
+  rotate: true
+  xy: 264, 170
+  size: 146, 27
+  orig: 146, 27
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2, 132
+  size: 116, 184
+  orig: 116, 184
+  offset: 0, 0
+  index: -1
+NHecklace
+  rotate: false
+  xy: 187, 54
+  size: 108, 83
+  orig: 108, 83
+  offset: 0, 0
+  index: -1
+NHecklace0
+  rotate: false
+  xy: 268, 143
+  size: 19, 25
+  orig: 19, 25
+  offset: 0, 0
+  index: -1
+Shad
+  rotate: false
+  xy: 159, 2
+  size: 116, 14
+  orig: 116, 14
+  offset: 0, 0
+  index: -1

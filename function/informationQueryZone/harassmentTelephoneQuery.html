@@ -1,0 +1,239 @@
+<!doctype html>
+<html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"> 
+        <link rel="icon" href="images/favicon.jpg" type="image/x-icon"> 
+        <link rel="stylesheet" href="mdui/css/mdui.min.css">
+        <script src="mdui/js/mdui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="waves/waves.min.css" />
+        <link rel="stylesheet" type="text/css" href="theme.css" />
+        
+    </head> 
+    <body class="mdui-drawer-body-left"> 
+        <header class="mdui-appbar mdui-appbar-fixed mdui-appbar-inset mdui-shadow-0">
+        <div class="mdui-toolbar mdui-color-theme-50">
+        <a class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-drawer="{target: '#drawer', swipe: true}">
+        <i class="mdui-icon material-icons">menu</i>
+        </a>
+        <a class="mdui-typo-headline" href="../../index.html">彬红茶™网站</a>
+        <div class="mdui-toolbar-spacer"></div>
+        <a class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-dialog="{target: '#offline'}" mdui-tooltip="{content: '获取离线版 (需wifi)'}" onclick="update()">
+        <i class="mdui-icon material-icons">cloud_download</i>
+        </a>
+        <a id="switch-theme" class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-tooltip="{content: '打开调色板'}" mdui-dialog="{target: '#setTheme'}">
+        <i class="mdui-icon material-icons">color_lens</i>
+        </a>
+        </div>
+        </header>
+        <div class="mdui-dialog mdui-color-theme-50" id="offline">
+        <div class="mdui-dialog-title">获取离线版，密码0000</div>
+        <div class="mdui-dialog-content">
+        <div class="mdui-spinner mdui-center" id="updateSpinner"></div>
+        <div id="updateDate"></div>
+        <div id="updateChange"></div>
+        <p class="mdui-text-color-red" id="updateNote"></p>
+        <p class="mdui-text-color-green" id="alreadyUpdate" style="display: none;">已是最新版本</p>
+          <p class="mdui-text-color-green" id="updateAvailable" style="display: none;">有可用的版本更新</p><br><br><br>
+        </div>
+        <div class="mdui-dialog-actions mdui-dialog-actions-stacked" style="padding: 8px;">
+        <a href="https://binhongcha.lanzoue.com/b03qdk82d" class="waves-block radius"><button class="mdui-btn">获取最新版本</button></a>
+         <a href="../../version.html" class="waves-block radius"><button class="mdui-btn">关于本版本</button></a>
+      <div class="waves-block radius"><button class="mdui-btn" mdui-dialog-close>关闭</button></div>
+        </div>
+        <script src="update.js"></script>
+        </div>
+        <div class="mdui-drawer mdui-color-theme-50" id="drawer">
+        <img class="mdui-img-fluid" src="images/BGS_IMAGE_20210919.jpg"/ id="bgsImage">
+        <ul class="mdui-list" mdui-collapse="{accordion: true}" style="padding: 8px;" id="mduiDrawerList">
+        <a href="../../index.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-red">home</i>
+        <div class="mdui-list-item-content">首页</div>
+      </li>
+        </a>
+        <a href="../../index17.html" class="waves-block radius">
+        <li class="mdui-list-item mdui-color-theme">
+        <i class="mdui-list-item-icon">🏜</i>
+        <div class="mdui-list-item-content">超多功能</div>
+        </li>
+        </a>
+        <a href="../../sysImg.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-orange">storage</i>
+        <div class="mdui-list-item-content">系统镜像</div>
+        </li>
+        </a>
+        <a href="../../apps.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-green">apps</i>
+        <div class="mdui-list-item-content">应用程序</div>
+        </li>
+        </a>
+        <a href="../../websites.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">public</i>
+        <div class="mdui-list-item-content">网络站点</div>
+          </li>
+        </a>
+        <a href="../../index11.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-light-blue">✪</i>
+        <div class="mdui-list-item-content">音乐播放器</div>
+        </li>
+        </a>
+        <a href="../../index5.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-grey">🌟</i>
+        <div class="mdui-list-item-content">留言系统</div>
+       </li>
+        </a>
+        <a href="../../index7.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-lime">✴️</i>
+        <div class="mdui-list-item-content">小备忘录</div>
+        </li>
+        </a>
+        <a href="../../more.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-cyan">attach_file</i>
+        <div class="mdui-list-item-content">更多资源</div>
+        </li>
+        </a>
+        <a href="../../index4.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-brown">attach_file</i>
+        <div class="mdui-list-item-content">小小画板(beta)</div>
+        </li>
+        </a>
+        <a href="../../tools.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">build</i>
+        <div class="mdui-list-item-content">JS工具</div>
+        </li>
+        </a>
+        <a href="../../index9.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">🔯</i>
+        <div class="mdui-list-item-content">ChatGPT</div>
+     
+        </li>
+        </a>
+        <a href="../../about.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">info</i>
+        <div class="mdui-list-item-content">关于我们</div>
+        </li>
+        </a>
+        <a href="../../download.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-yellow">storage</i>
+        <div class="mdui-list-item-content">下载链接</div>
+       </li>
+        </a>
+        <a href="../../index16.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue-grey">📳</i>
+        <div class="mdui-list-item-content">配音秀</div>
+        </li>
+        </a>
+        <a href="../../gamelist.html" class="waves-block radius">
+        <li class="mdui-list-item">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">storage</i>
+        <div class="mdui-list-item-content">游戏列表</div>
+        </a>
+        </li>
+        </a>
+        </div>
+        </ul>
+        </div>
+        <br><br><br><br>
+<!doctype html>
+<html> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+        <title>骚扰电话查询 - 彬红茶™网站</title>
+        <link rel="icon" type="image/x-icin" href="../../images/logo.ico">
+        <script src="../../tools/jQuery3.6.4.min.js"></script>
+        <script src="../../tools/axios.js"></script>
+        <link rel="stylesheet" href="../../tools/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/function.css">
+    </head> 
+    <body>
+        <div class="result text-center"></div>
+        <div class="container">
+            <input type="number" class="form-control" placeholder="请输入需要查询的手机号" required>            
+            <div class="text-center allBtn">
+                <button class="btn btn-secondary">清空内容</button>
+                <button class="btn btn-info">立即查询</button>
+            </div>
+            <div class="notes text-center">
+                <div>#无反应请检测网络#</div>
+            </div>
+            <div class="data">
+                查询结果
+                <ul>
+                    <li>手机号：<span></span></li>                                
+                    <li>归属地：<span></span><span></span></li>
+                    <li>运营商：<span></span></li>  
+                    <li>360手机卫士：<span></span></li>
+                    <li>搜狗号码通：<span></span></li>
+                    <li>百度手机卫士：<span></span></li>
+                    <li><span></span></li>                                  
+                </ul>
+            </div>                                                      
+        </div>
+         <script>
+            $(function () {
+                $('.container').fadeIn(300);
+                var dataRtention = localStorage.getItem('harassmentTelephoneQuery');
+                if(localStorage.getItem('dataRtention') === 'true' && dataRtention) {
+                    $('input').val(dataRtention)
+                }
+                $('input:eq(0)').focus();
+                function getdata() {
+                    var tel = $('input').val();
+                    if(tel === '') return $('.result').html('手机号不能为空').fadeOut(3000);
+                    // ajax获得数据
+                    axios({
+                        url : 'https://zj.v.api.aa1.cn/api/saorao/',
+                        method : 'get',
+                        params : {
+                            phone : tel
+                        }
+                    }).then((res) => {
+                        res = res.data;
+                        if(!res.success) return $('.result').html(res.message).fadeOut(3000);
+                        localStorage.setItem('harassmentTelephoneQuery', tel)
+                        $('.data ul li:eq(0) span').html(res.tel)
+                        $('.data ul li:eq(1) span:eq(0)').html(res.info.province).siblings('span').html(res.info.city)
+                        $('.data ul li:eq(2) span').html(res.info.operator)
+                        $('.data ul li:eq(3) span').html(res.data[0].msg)
+                        $('.data ul li:eq(4) span').html(res.data[1].msg)
+                        $('.data ul li:eq(5) span').html(res.data[2].msg)
+                        $('.data ul li:eq(6) span').html(res.text.time)
+                        $('.data').fadeIn(500)
+                        $('.result').html('操作成功').fadeOut(3000)
+                        if(localStorage.getItem('inputRtention') === 'false') $('input').val('');
+                    }).catch((err) => {
+                        $('.result').html('网络或接口出错,接口问题请联系作者').fadeOut(3000)
+                    })
+                }
+                $('.allBtn .btn:eq(0)').click(() => {
+                    $('input').val('').focus()
+                })
+                $('.allBtn .btn:eq(1)').click(function () {
+                    $('.result').html('请稍等').fadeIn(1000)
+                    getdata()                   
+                })
+                $(window).on('keydown', function (e) {
+                    if(e.keyCode === 13) {
+                        $('.result').html('请稍等').fadeIn(1000)
+                        getdata()
+                    }
+                })
+            })
+        </script>   
+    </body>
+</html>

@@ -1,0 +1,230 @@
+
+Theme.png
+size: 983,983
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Dead
+  rotate: true
+  xy: 906, 786
+  size: 99, 53
+  orig: 99, 53
+  offset: 0, 0
+  index: -1
+Dead1_1
+  rotate: true
+  xy: 240, 386
+  size: 256, 181
+  orig: 256, 181
+  offset: 0, 0
+  index: -1
+Dead1_2
+  rotate: true
+  xy: 423, 413
+  size: 241, 166
+  orig: 241, 166
+  offset: 0, 0
+  index: -1
+Dead1_Goods1
+  rotate: true
+  xy: 438, 660
+  size: 76, 111
+  orig: 76, 111
+  offset: 0, 0
+  index: -1
+Dead1_Goods2
+  rotate: false
+  xy: 385, 656
+  size: 51, 80
+  orig: 51, 80
+  offset: 0, 0
+  index: -1
+Dead1_Goods3
+  rotate: true
+  xy: 505, 349
+  size: 62, 30
+  orig: 62, 30
+  offset: 0, 0
+  index: -1
+Dead1_Goods4
+  rotate: true
+  xy: 289, 319
+  size: 65, 78
+  orig: 65, 78
+  offset: 0, 0
+  index: -1
+Dead1_Tablet1
+  rotate: false
+  xy: 240, 313
+  size: 47, 71
+  orig: 47, 71
+  offset: 0, 0
+  index: -1
+Dead1_Tablet2
+  rotate: true
+  xy: 906, 941
+  size: 41, 60
+  orig: 41, 60
+  offset: 0, 0
+  index: -1
+Dead2_1Bone
+  rotate: true
+  xy: 289, 649
+  size: 87, 94
+  orig: 87, 94
+  offset: 0, 0
+  index: -1
+Dead2_1Fire
+  rotate: true
+  xy: 687, 156
+  size: 110, 168
+  orig: 110, 168
+  offset: 0, 0
+  index: -1
+Dead2_1Spark1
+  rotate: false
+  xy: 201, 18
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+Dead2_1Spark2
+  rotate: false
+  xy: 201, 7
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+Dead2_1Wood
+  rotate: false
+  xy: 369, 321
+  size: 134, 63
+  orig: 134, 63
+  offset: 0, 0
+  index: -1
+Dead2_2Candlestick
+  rotate: true
+  xy: 738, 16
+  size: 138, 155
+  orig: 142, 157
+  offset: 2, 0
+  index: -1
+Dead2_2Coffin
+  rotate: true
+  xy: 522, 7
+  size: 123, 214
+  orig: 123, 214
+  offset: 0, 0
+  index: -1
+Dead3_Car1
+  rotate: true
+  xy: 1, 313
+  size: 329, 237
+  orig: 329, 237
+  offset: 0, 0
+  index: -1
+Dead3_Car2
+  rotate: false
+  xy: 906, 887
+  size: 58, 52
+  orig: 58, 52
+  offset: 0, 0
+  index: -1
+Dead3_Car3
+  rotate: true
+  xy: 1, 1
+  size: 310, 198
+  orig: 310, 198
+  offset: 0, 0
+  index: -1
+Dead3_Car4
+  rotate: false
+  xy: 900, 742
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+Dead4_Box1
+  rotate: false
+  xy: 591, 384
+  size: 163, 203
+  orig: 163, 203
+  offset: 0, 0
+  index: -1
+Dead4_Box2
+  rotate: false
+  xy: 522, 132
+  size: 163, 215
+  orig: 163, 215
+  offset: 0, 0
+  index: -1
+Dead4_Build
+  rotate: true
+  xy: 289, 738
+  size: 244, 226
+  orig: 244, 226
+  offset: 0, 0
+  index: -1
+Dead4_jar
+  rotate: false
+  xy: 682, 589
+  size: 216, 213
+  orig: 216, 213
+  offset: 0, 0
+  index: -1
+Dead5_Book1
+  rotate: true
+  xy: 682, 804
+  size: 178, 222
+  orig: 178, 222
+  offset: 0, 0
+  index: -1
+Dead5_Desk1
+  rotate: false
+  xy: 756, 268
+  size: 201, 136
+  orig: 201, 136
+  offset: 0, 0
+  index: -1
+Dead5_Desk2
+  rotate: false
+  xy: 756, 406
+  size: 201, 181
+  orig: 201, 181
+  offset: 0, 0
+  index: -1
+Dead5_Table1
+  rotate: false
+  xy: 517, 750
+  size: 163, 232
+  orig: 163, 232
+  offset: 0, 0
+  index: -1
+Flag0
+  rotate: true
+  xy: 212, 19
+  size: 8, 118
+  orig: 8, 118
+  offset: 0, 0
+  index: -1
+Flag1
+  rotate: true
+  xy: 551, 672
+  size: 76, 38
+  orig: 76, 38
+  offset: 0, 0
+  index: -1
+Spotlight_1
+  rotate: true
+  xy: 201, 29
+  size: 282, 319
+  orig: 300, 343
+  offset: 0, 0
+  index: -1
+Spotlight_2
+  rotate: false
+  xy: 1, 644
+  size: 286, 338
+  orig: 311, 365
+  offset: 25, 0
+  index: -1

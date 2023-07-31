@@ -1,0 +1,930 @@
+
+Sheeps.png
+size: 1047,1047
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shad1
+  rotate: true
+  xy: 779, 519
+  size: 126, 17
+  orig: 126, 17
+  offset: 0, 0
+  index: -1
+Shad2
+  rotate: true
+  xy: 577, 9
+  size: 126, 17
+  orig: 126, 17
+  offset: 0, 0
+  index: -1
+Sheep00/Body1
+  rotate: false
+  xy: 498, 648
+  size: 152, 125
+  orig: 154, 127
+  offset: 1, 1
+  index: -1
+Sheep00/EarL
+  rotate: false
+  xy: 887, 259
+  size: 27, 41
+  orig: 29, 43
+  offset: 1, 1
+  index: -1
+Sheep00/EarR
+  rotate: true
+  xy: 658, 9
+  size: 26, 41
+  orig: 28, 43
+  offset: 1, 1
+  index: -1
+Sheep00/Head
+  rotate: false
+  xy: 2, 2
+  size: 69, 85
+  orig: 71, 87
+  offset: 1, 1
+  index: -1
+Sheep00/Leg1
+  rotate: false
+  xy: 371, 90
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep00/Leg2
+  rotate: true
+  xy: 630, 501
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+Sheep01/Body1
+  rotate: false
+  xy: 806, 525
+  size: 152, 125
+  orig: 152, 125
+  offset: 0, 0
+  index: -1
+Sheep01/Head
+  rotate: false
+  xy: 646, 283
+  size: 112, 87
+  orig: 112, 87
+  offset: 0, 0
+  index: -1
+Sheep01/Leg1
+  rotate: true
+  xy: 522, 117
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep01/Leg2
+  rotate: false
+  xy: 596, 120
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep02/Body1
+  rotate: true
+  xy: 263, 268
+  size: 152, 125
+  orig: 152, 125
+  offset: 0, 0
+  index: -1
+Sheep02/Head
+  rotate: false
+  xy: 522, 137
+  size: 91, 132
+  orig: 91, 132
+  offset: 0, 0
+  index: -1
+Sheep02/Leg1
+  rotate: false
+  xy: 916, 278
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep02/Leg2
+  rotate: false
+  xy: 916, 213
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep03/Body1
+  rotate: false
+  xy: 652, 777
+  size: 152, 130
+  orig: 152, 130
+  offset: 0, 0
+  index: -1
+Sheep03/Head
+  rotate: false
+  xy: 964, 384
+  size: 76, 99
+  orig: 76, 99
+  offset: 0, 0
+  index: -1
+Sheep03/Leg1
+  rotate: true
+  xy: 887, 196
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep03/Leg2
+  rotate: false
+  xy: 943, 384
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+Sheep04/Body1
+  rotate: false
+  xy: 816, 784
+  size: 155, 125
+  orig: 155, 125
+  offset: 0, 0
+  index: -1
+Sheep04/Head
+  rotate: true
+  xy: 615, 120
+  size: 65, 92
+  orig: 65, 92
+  offset: 0, 0
+  index: -1
+Sheep05/Body1
+  rotate: false
+  xy: 500, 910
+  size: 157, 135
+  orig: 157, 135
+  offset: 0, 0
+  index: -1
+Sheep05/Head
+  rotate: true
+  xy: 709, 117
+  size: 69, 89
+  orig: 69, 89
+  offset: 0, 0
+  index: -1
+Sheep06/Body1
+  rotate: false
+  xy: 338, 917
+  size: 160, 128
+  orig: 160, 128
+  offset: 0, 0
+  index: -1
+Sheep06/Head
+  rotate: true
+  xy: 518, 271
+  size: 73, 91
+  orig: 73, 91
+  offset: 0, 0
+  index: -1
+Sheep06/Leg1
+  rotate: false
+  xy: 843, 102
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep06/Leg2
+  rotate: false
+  xy: 911, 196
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep07/Body1
+  rotate: false
+  xy: 816, 911
+  size: 155, 134
+  orig: 155, 134
+  offset: 0, 0
+  index: -1
+Sheep07/Head
+  rotate: false
+  xy: 709, 188
+  size: 87, 93
+  orig: 87, 93
+  offset: 0, 0
+  index: -1
+Sheep07/Leg1
+  rotate: false
+  xy: 371, 66
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep07/Leg2
+  rotate: true
+  xy: 914, 178
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep08/Body1
+  rotate: true
+  xy: 383, 423
+  size: 152, 118
+  orig: 152, 118
+  offset: 0, 0
+  index: -1
+Sheep08/Head
+  rotate: true
+  xy: 257, 577
+  size: 77, 106
+  orig: 77, 106
+  offset: 0, 0
+  index: -1
+Sheep09/Body1
+  rotate: false
+  xy: 2, 901
+  size: 167, 144
+  orig: 167, 144
+  offset: 0, 0
+  index: -1
+Sheep09/Head
+  rotate: true
+  xy: 266, 2
+  size: 110, 103
+  orig: 110, 103
+  offset: 0, 0
+  index: -1
+Sheep09/Leg1
+  rotate: true
+  xy: 546, 117
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep09/Leg2
+  rotate: false
+  xy: 371, 2
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+Sheep10/Body1
+  rotate: true
+  xy: 266, 114
+  size: 152, 126
+  orig: 152, 126
+  offset: 0, 0
+  index: -1
+Sheep10/Head
+  rotate: false
+  xy: 730, 37
+  size: 64, 78
+  orig: 64, 78
+  offset: 0, 0
+  index: -1
+Sheep11/Body1
+  rotate: true
+  xy: 253, 759
+  size: 155, 121
+  orig: 155, 121
+  offset: 0, 0
+  index: -1
+Sheep11/Head
+  rotate: false
+  xy: 756, 393
+  size: 113, 124
+  orig: 113, 124
+  offset: 0, 0
+  index: -1
+Sheep11/Leg1
+  rotate: false
+  xy: 916, 254
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep11/Leg2
+  rotate: false
+  xy: 796, 34
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+Sheep12/Body1
+  rotate: true
+  xy: 2, 244
+  size: 155, 129
+  orig: 155, 129
+  offset: 0, 0
+  index: -1
+Sheep12/Head
+  rotate: false
+  xy: 973, 793
+  size: 72, 120
+  orig: 72, 120
+  offset: 0, 0
+  index: -1
+Sheep13/Body1
+  rotate: true
+  xy: 2, 561
+  size: 165, 125
+  orig: 165, 125
+  offset: 0, 0
+  index: -1
+Sheep13/Head
+  rotate: false
+  xy: 615, 187
+  size: 92, 94
+  orig: 92, 94
+  offset: 0, 0
+  index: -1
+Sheep13/Leg1
+  rotate: true
+  xy: 462, 582
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+Sheep13/Leg2
+  rotate: false
+  xy: 814, 34
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+Sheep13/Leg3
+  rotate: false
+  xy: 863, 102
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep14/Body1
+  rotate: true
+  xy: 129, 571
+  size: 155, 126
+  orig: 155, 126
+  offset: 0, 0
+  index: -1
+Sheep14/EarL
+  rotate: false
+  xy: 887, 216
+  size: 27, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1
+Sheep14/EarR
+  rotate: true
+  xy: 701, 9
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+Sheep14/Head
+  rotate: false
+  xy: 973, 915
+  size: 72, 130
+  orig: 72, 130
+  offset: 0, 0
+  index: -1
+Sheep15/Body1
+  rotate: true
+  xy: 390, 269
+  size: 152, 126
+  orig: 152, 126
+  offset: 0, 0
+  index: -1
+Sheep15/Head
+  rotate: false
+  xy: 486, 2
+  size: 89, 111
+  orig: 89, 111
+  offset: 0, 0
+  index: -1
+Sheep15/Leg1
+  rotate: false
+  xy: 371, 42
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep15/Leg2
+  rotate: true
+  xy: 914, 160
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep16/Body1
+  rotate: true
+  xy: 2, 401
+  size: 158, 126
+  orig: 158, 126
+  offset: 0, 0
+  index: -1
+Sheep16/EarL
+  rotate: true
+  xy: 744, 8
+  size: 27, 41
+  orig: 27, 41
+  offset: 0, 0
+  index: -1
+Sheep16/EarR
+  rotate: true
+  xy: 800, 98
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+Sheep16/Head
+  rotate: false
+  xy: 658, 37
+  size: 70, 78
+  orig: 70, 78
+  offset: 0, 0
+  index: -1
+Sheep16/Leg1
+  rotate: false
+  xy: 916, 230
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep16/Leg2
+  rotate: false
+  xy: 996, 270
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+Sheep17/Body1
+  rotate: false
+  xy: 498, 775
+  size: 152, 133
+  orig: 152, 133
+  offset: 0, 0
+  index: -1
+Sheep17/Head
+  rotate: false
+  xy: 943, 289
+  size: 101, 93
+  orig: 101, 93
+  offset: 0, 0
+  index: -1
+Sheep18/Body1
+  rotate: true
+  xy: 394, 115
+  size: 152, 126
+  orig: 152, 126
+  offset: 0, 0
+  index: -1
+Sheep18/Head
+  rotate: false
+  xy: 73, 2
+  size: 69, 85
+  orig: 69, 85
+  offset: 0, 0
+  index: -1
+Sheep19/Body1
+  rotate: true
+  xy: 2, 728
+  size: 171, 127
+  orig: 171, 127
+  offset: 0, 0
+  index: -1
+Sheep19/Head
+  rotate: true
+  xy: 798, 193
+  size: 88, 87
+  orig: 88, 87
+  offset: 0, 0
+  index: -1
+Sheep20/Body1
+  rotate: false
+  xy: 652, 647
+  size: 152, 128
+  orig: 152, 128
+  offset: 0, 0
+  index: -1
+Sheep20/Head
+  rotate: true
+  xy: 257, 656
+  size: 101, 117
+  orig: 101, 117
+  offset: 0, 0
+  index: -1
+Sheep20/Leg1
+  rotate: false
+  xy: 611, 283
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+Sheep20/Leg2
+  rotate: false
+  xy: 936, 225
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+Sheep21/Body1
+  rotate: true
+  xy: 133, 259
+  size: 153, 128
+  orig: 153, 128
+  offset: 0, 0
+  index: -1
+Sheep21/Head
+  rotate: true
+  xy: 800, 126
+  size: 65, 92
+  orig: 65, 92
+  offset: 0, 0
+  index: -1
+Sheep21/Leg1
+  rotate: false
+  xy: 371, 18
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep21/Leg2
+  rotate: false
+  xy: 1014, 254
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+Sheep21/Leg3
+  rotate: true
+  xy: 596, 7
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep22/Body1
+  rotate: false
+  xy: 659, 909
+  size: 155, 136
+  orig: 155, 136
+  offset: 0, 0
+  index: -1
+Sheep22/EarL
+  rotate: false
+  xy: 462, 612
+  size: 31, 40
+  orig: 31, 40
+  offset: 0, 0
+  index: -1
+Sheep22/EarR
+  rotate: false
+  xy: 611, 304
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+Sheep22/Head
+  rotate: false
+  xy: 596, 27
+  size: 60, 91
+  orig: 60, 91
+  offset: 0, 0
+  index: -1
+Sheep22/Leg1
+  rotate: true
+  xy: 620, 7
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep22/Leg2
+  rotate: false
+  xy: 934, 209
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+Sheep23/Body1
+  rotate: true
+  xy: 518, 346
+  size: 146, 126
+  orig: 146, 126
+  offset: 0, 0
+  index: -1
+Sheep23/Head
+  rotate: true
+  xy: 960, 713
+  size: 69, 85
+  orig: 69, 85
+  offset: 0, 0
+  index: -1
+Sheep24/Body1
+  rotate: false
+  xy: 806, 652
+  size: 152, 130
+  orig: 152, 130
+  offset: 0, 0
+  index: -1
+Sheep24/Head
+  rotate: false
+  xy: 878, 302
+  size: 63, 96
+  orig: 63, 96
+  offset: 0, 0
+  index: -1
+Sheep24/Leg1
+  rotate: false
+  xy: 796, 74
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep24/Leg2
+  rotate: true
+  xy: 914, 142
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep25/Body1
+  rotate: true
+  xy: 131, 743
+  size: 156, 120
+  orig: 156, 120
+  offset: 0, 0
+  index: -1
+Sheep25/Head
+  rotate: false
+  xy: 964, 485
+  size: 81, 99
+  orig: 81, 99
+  offset: 0, 0
+  index: -1
+Sheep25/Leg1
+  rotate: false
+  xy: 796, 50
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep25/Leg2
+  rotate: true
+  xy: 914, 124
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep25/Leg3
+  rotate: false
+  xy: 816, 74
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep26/Body1
+  rotate: true
+  xy: 130, 414
+  size: 155, 126
+  orig: 155, 126
+  offset: 0, 0
+  index: -1
+Sheep26/Head
+  rotate: false
+  xy: 646, 372
+  size: 108, 145
+  orig: 108, 145
+  offset: 0, 0
+  index: -1
+Sheep26/Leg1
+  rotate: false
+  xy: 816, 50
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep26/Leg2
+  rotate: false
+  xy: 787, 17
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep27/Body1
+  rotate: false
+  xy: 630, 519
+  size: 147, 126
+  orig: 147, 126
+  offset: 0, 0
+  index: -1
+Sheep27/Head
+  rotate: false
+  xy: 760, 283
+  size: 116, 108
+  orig: 116, 108
+  offset: 0, 0
+  index: -1
+Sheep27/Leg1
+  rotate: false
+  xy: 894, 172
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep27/Leg2
+  rotate: false
+  xy: 805, 17
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep28/Body1
+  rotate: true
+  xy: 136, 104
+  size: 153, 128
+  orig: 153, 128
+  offset: 0, 0
+  index: -1
+Sheep28/Head
+  rotate: true
+  xy: 365, 577
+  size: 75, 95
+  orig: 75, 95
+  offset: 0, 0
+  index: -1
+Sheep28/Leg1
+  rotate: false
+  xy: 956, 244
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+Sheep28/Leg2
+  rotate: true
+  xy: 823, 16
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+Sheep29/Body1
+  rotate: true
+  xy: 503, 494
+  size: 152, 125
+  orig: 152, 125
+  offset: 0, 0
+  index: -1
+Sheep29/Head
+  rotate: false
+  xy: 394, 2
+  size: 90, 111
+  orig: 90, 111
+  offset: 0, 0
+  index: -1
+Sheep29/Leg1
+  rotate: false
+  xy: 976, 268
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+Sheep29/Leg2
+  rotate: true
+  xy: 836, 80
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep30/Body1
+  rotate: true
+  xy: 376, 761
+  size: 154, 120
+  orig: 154, 120
+  offset: 0, 0
+  index: -1
+Sheep30/Head
+  rotate: false
+  xy: 960, 586
+  size: 79, 125
+  orig: 79, 125
+  offset: 0, 0
+  index: -1
+Sheep30/Leg1
+  rotate: false
+  xy: 894, 148
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep30/Leg2
+  rotate: true
+  xy: 836, 62
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep31/Body1
+  rotate: false
+  xy: 171, 916
+  size: 165, 129
+  orig: 165, 129
+  offset: 0, 0
+  index: -1
+Sheep31/Head
+  rotate: true
+  xy: 376, 654
+  size: 105, 120
+  orig: 105, 120
+  offset: 0, 0
+  index: -1
+Sheep31/Leg1
+  rotate: false
+  xy: 894, 124
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep31/Leg2
+  rotate: false
+  xy: 996, 251
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+Sheep31/Leg3
+  rotate: false
+  xy: 936, 265
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep32/Body1
+  rotate: true
+  xy: 258, 422
+  size: 153, 123
+  orig: 153, 123
+  offset: 0, 0
+  index: -1
+Sheep32/Head
+  rotate: true
+  xy: 144, 4
+  size: 98, 116
+  orig: 98, 116
+  offset: 0, 0
+  index: -1
+Sheep32/Leg1
+  rotate: false
+  xy: 936, 241
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep32/Leg2
+  rotate: false
+  xy: 1014, 272
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+Sheep32/Leg3
+  rotate: false
+  xy: 976, 247
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+Sheep32/Leg4
+  rotate: false
+  xy: 853, 85
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+Sheep33/Body1
+  rotate: true
+  xy: 2, 89
+  size: 153, 132
+  orig: 153, 132
+  offset: 0, 0
+  index: -1
+Sheep33/Head
+  rotate: false
+  xy: 871, 400
+  size: 91, 123
+  orig: 91, 123
+  offset: 0, 0
+  index: -1
+Sheep33/Leg1
+  rotate: false
+  xy: 956, 265
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+Sheep33/Leg2
+  rotate: false
+  xy: 853, 68
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1

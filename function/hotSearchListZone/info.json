@@ -1,0 +1,105 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.wang/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "http://guozhivip.com/fun/els/",
+            "path": "index.html",
+            "saved": true,
+            "size": 3367,
+            "children": [
+                {
+                    "url": "http://guozhivip.com/fun/els/app-2.0.2.5.js",
+                    "path": "js/app-2.0.2.5.js",
+                    "saved": true,
+                    "size": 244056
+                },
+                {
+                    "url": "http://guozhivip.com/fun/els/loader.css",
+                    "path": "css/loader.css",
+                    "saved": true,
+                    "size": 1500
+                },
+                {
+                    "url": "http://guozhivip.com/fun/els/css-2.0.2.5.css",
+                    "path": "css/css-2.0.2.5.css",
+                    "saved": true,
+                    "size": 9192,
+                    "children": [
+                        {
+                            "url": "http://guozhivip.com/fun/els/lg.png",
+                            "path": "img/lg.png",
+                            "saved": true,
+                            "size": 2396
+                        }
+                    ]
+                },
+                {
+                    "url": "http://guozhivip.com/apple-touch-icon.png",
+                    "saved": false
+                },
+                {
+                    "url": "http://guozhivip.com/fun/images/ic.ico",
+                    "path": "ic.ico",
+                    "saved": true,
+                    "size": 4286
+                }
+            ]
+        }
+    ],
+    "alias": "guozhivip-com-kgx7ciz4",
+    "info": {
+        "remark": [],
+        "title": "俄罗斯方块 在线游戏",
+        "domain": "guozhivip.com",
+        "origin": "http://guozhivip.com",
+        "ip": "121.40.59.158",
+        "main": "index.html",
+        "url": "http://guozhivip.com/fun/els/",
+        "totalSize": "265 kB",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "http://guozhivip.com/fun/els/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.wang/"
+            }
+        },
+        "response": {
+            "responseUrl": "http://guozhivip.com/fun/els/",
+            "redirects": [],
+            "statusCode": 200,
+            "headers": {
+                "date": "Tue, 31 Jan 2023 01:56:55 GMT",
+                "server": "Apache",
+                "last-modified": "Sat, 27 Mar 2021 14:38:50 GMT",
+                "etag": "\"1e018d-b79-5be859b5c5280\"",
+                "accept-ranges": "bytes",
+                "vary": "Accept-Encoding,User-Agent",
+                "content-length": "1397",
+                "connection": "close",
+                "content-type": "text/html"
+            }
+        },
+        "time": {
+            "start": "2023-01-31T01:56:55.326Z",
+            "end": "2023-01-31T01:56:56.375Z"
+        }
+    },
+    "options": {
+        "url": "http://guozhivip.com/fun/els/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "formatter": [],
+        "filenameGenerator": "byType"
+    }
+}

@@ -1,0 +1,230 @@
+
+DJ1.png
+size: 553,553
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DJ1/Arm1
+  rotate: false
+  xy: 170, 315
+  size: 43, 53
+  orig: 43, 53
+  offset: 0, 0
+  index: -1
+DJ1/Arm2
+  rotate: false
+  xy: 503, 520
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+DJ1/DJ0
+  rotate: true
+  xy: 222, 236
+  size: 178, 120
+  orig: 178, 120
+  offset: 0, 0
+  index: -1
+DJ1/DJ1
+  rotate: false
+  xy: 167, 416
+  size: 166, 135
+  orig: 166, 135
+  offset: 0, 0
+  index: -1
+DJ1/DJ2
+  rotate: false
+  xy: 158, 5
+  size: 166, 76
+  orig: 166, 76
+  offset: 0, 0
+  index: -1
+DJ1/Head
+  rotate: false
+  xy: 348, 12
+  size: 135, 133
+  orig: 135, 133
+  offset: 0, 0
+  index: -1
+DJ1/Nose1
+  rotate: true
+  xy: 139, 117
+  size: 36, 17
+  orig: 36, 17
+  offset: 0, 0
+  index: -1
+DJ1/Smart1
+  rotate: true
+  xy: 170, 118
+  size: 140, 32
+  orig: 140, 32
+  offset: 0, 0
+  index: -1
+DJ1/Smart2
+  rotate: false
+  xy: 344, 245
+  size: 140, 32
+  orig: 140, 32
+  offset: 0, 0
+  index: -1
+DJ1/Smart3
+  rotate: true
+  xy: 486, 147
+  size: 140, 32
+  orig: 140, 32
+  offset: 0, 0
+  index: -1
+DJ1/tongue
+  rotate: false
+  xy: 139, 185
+  size: 18, 28
+  orig: 18, 28
+  offset: 0, 0
+  index: -1
+The01_1/Arm1
+  rotate: true
+  xy: 483, 289
+  size: 55, 62
+  orig: 55, 62
+  offset: 0, 0
+  index: -1
+The01_1/Arm2
+  rotate: false
+  xy: 503, 487
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+The01_1/ArmR1
+  rotate: false
+  xy: 483, 346
+  size: 55, 68
+  orig: 55, 68
+  offset: 0, 0
+  index: -1
+The01_1/Bead
+  rotate: false
+  xy: 158, 94
+  size: 9, 59
+  orig: 9, 59
+  offset: 0, 0
+  index: -1
+The01_1/DJ1
+  rotate: false
+  xy: 2, 215
+  size: 166, 152
+  orig: 166, 152
+  offset: 0, 0
+  index: -1
+The01_1/Head
+  rotate: false
+  xy: 2, 369
+  size: 163, 182
+  orig: 163, 182
+  offset: 0, 0
+  index: -1
+The01_1/Mustache1
+  rotate: false
+  xy: 348, 160
+  size: 100, 83
+  orig: 100, 83
+  offset: 0, 0
+  index: -1
+The01_1/Nose1
+  rotate: true
+  xy: 139, 79
+  size: 36, 17
+  orig: 36, 17
+  offset: 0, 0
+  index: -1
+The01_1/Smart1
+  rotate: false
+  xy: 2, 13
+  size: 140, 32
+  orig: 140, 32
+  offset: 0, 0
+  index: -1
+The01_1/Smart2
+  rotate: true
+  xy: 485, 5
+  size: 140, 32
+  orig: 140, 32
+  offset: 0, 0
+  index: -1
+The01_1/Smart3
+  rotate: true
+  xy: 519, 5
+  size: 140, 32
+  orig: 140, 32
+  offset: 0, 0
+  index: -1
+The01_1/tongue
+  rotate: false
+  xy: 139, 155
+  size: 18, 28
+  orig: 18, 28
+  offset: 0, 0
+  index: -1
+The02_1/Arm1
+  rotate: true
+  xy: 167, 370
+  size: 44, 53
+  orig: 44, 53
+  offset: 0, 0
+  index: -1
+The02_1/Arm2
+  rotate: false
+  xy: 503, 454
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+The02_1/DJ1
+  rotate: false
+  xy: 335, 416
+  size: 166, 135
+  orig: 166, 135
+  offset: 0, 0
+  index: -1
+The02_1/Head
+  rotate: true
+  xy: 204, 99
+  size: 135, 142
+  orig: 135, 142
+  offset: 0, 0
+  index: -1
+The02_1/Nose1
+  rotate: false
+  xy: 503, 435
+  size: 36, 17
+  orig: 36, 17
+  offset: 0, 0
+  index: -1
+The03_1/Arm1
+  rotate: false
+  xy: 170, 260
+  size: 43, 53
+  orig: 43, 53
+  offset: 0, 0
+  index: -1
+The03_1/Arm2
+  rotate: true
+  xy: 169, 83
+  size: 33, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+The03_1/DJ1
+  rotate: true
+  xy: 2, 47
+  size: 166, 135
+  orig: 166, 135
+  offset: 0, 0
+  index: -1
+The03_1/Head
+  rotate: true
+  xy: 344, 279
+  size: 135, 137
+  orig: 135, 137
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+BG.png
+size: 1016,1016
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bulb1
+  rotate: false
+  xy: 974, 997
+  size: 19, 17
+  orig: 21, 19
+  offset: 1, 1
+  index: -1
+Bulb2
+  rotate: false
+  xy: 995, 997
+  size: 19, 17
+  orig: 21, 19
+  offset: 1, 1
+  index: -1
+Lighting1
+  rotate: true
+  xy: 754, 570
+  size: 66, 125
+  orig: 71, 140
+  offset: 3, 15
+  index: -1
+Lighting2
+  rotate: true
+  xy: 881, 570
+  size: 66, 125
+  orig: 71, 140
+  offset: 3, 15
+  index: -1
+Stage1
+  rotate: false
+  xy: 2, 498
+  size: 750, 516
+  orig: 750, 516
+  offset: 0, 0
+  index: -1
+Stage2
+  rotate: true
+  xy: 754, 638
+  size: 376, 218
+  orig: 376, 218
+  offset: 0, 0
+  index: -1

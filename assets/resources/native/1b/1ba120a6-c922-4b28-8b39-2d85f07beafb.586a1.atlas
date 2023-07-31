@@ -1,0 +1,83 @@
+
+Finish1.png
+size: 314,314
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body1
+  rotate: true
+  xy: 113, 42
+  size: 152, 125
+  orig: 154, 127
+  offset: 1, 1
+  index: -1
+EarL
+  rotate: false
+  xy: 271, 271
+  size: 27, 41
+  orig: 29, 43
+  offset: 1, 1
+  index: -1
+EarR
+  rotate: false
+  xy: 271, 228
+  size: 26, 41
+  orig: 28, 43
+  offset: 1, 1
+  index: -1
+Eff1
+  rotate: false
+  xy: 2, 21
+  size: 109, 173
+  orig: 110, 173
+  offset: 1, 0
+  index: -1
+Head
+  rotate: false
+  xy: 200, 227
+  size: 69, 85
+  orig: 71, 87
+  offset: 1, 1
+  index: -1
+Head2
+  rotate: false
+  xy: 240, 140
+  size: 69, 85
+  orig: 69, 85
+  offset: 0, 0
+  index: -1
+Head3
+  rotate: false
+  xy: 240, 53
+  size: 69, 85
+  orig: 69, 85
+  offset: 0, 0
+  index: -1
+Leg1
+  rotate: true
+  xy: 200, 205
+  size: 20, 30
+  orig: 20, 30
+  offset: 0, 0
+  index: -1
+Shad1
+  rotate: false
+  xy: 113, 23
+  size: 126, 17
+  orig: 126, 17
+  offset: 0, 0
+  index: -1
+Shad2
+  rotate: false
+  xy: 2, 2
+  size: 126, 17
+  orig: 126, 17
+  offset: 0, 0
+  index: -1
+Speedline1
+  rotate: false
+  xy: 2, 196
+  size: 196, 116
+  orig: 206, 116
+  offset: 10, 0
+  index: -1

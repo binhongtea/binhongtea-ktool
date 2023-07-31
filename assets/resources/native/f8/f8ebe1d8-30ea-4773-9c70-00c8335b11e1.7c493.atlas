@@ -1,0 +1,55 @@
+
+UI.png
+size: 405,405
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grass1
+  rotate: false
+  xy: 129, 2
+  size: 53, 29
+  orig: 53, 29
+  offset: 0, 0
+  index: -1
+Grass2
+  rotate: false
+  xy: 201, 69
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+Grass3
+  rotate: false
+  xy: 184, 2
+  size: 53, 29
+  orig: 53, 29
+  offset: 0, 0
+  index: -1
+Grass4
+  rotate: true
+  xy: 201, 37
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+Hand0
+  rotate: true
+  xy: 129, 33
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+Hand1
+  rotate: true
+  xy: 2, 12
+  size: 92, 125
+  orig: 92, 125
+  offset: 0, 0
+  index: -1
+Ray1
+  rotate: false
+  xy: 2, 106
+  size: 297, 297
+  orig: 319, 319
+  offset: 11, 11
+  index: -1
