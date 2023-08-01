@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="mdui-1.0.1/css/mdui.min.css">
+    <script src="mdui/js/mdui.min.js"></script>
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <title>短语浏览 - 彬红茶™网站</title>
+</head>
+
+<body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-appbar-with-toolbar">
+    <div class="mdui-appbar mdui-appbar-fixed">
+        <div class="mdui-toolbar mdui-color-theme">
+            <a class="mdui-typo-title">翻译浏览 划到底退出</a>
+            <div class="mdui-toolbar-spacer"></div>
+            <a class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: '夜间模式'}" onclick="javascript:darkMode();">
+                <i class="mdui-icon material-icons">brightness_medium</i>
+            </a>
+        </div>
+    </div>
+    <div style="margin: 16px;text-align: center;">
+        <div class="mdui-table-fluid">
+            <table class="mdui-table">
+                <thead>
+                    <tr>
+                        <th>汉语</th>
+                        <th>翻译后的外语</th>
+                    </tr>
+                </thead>
+                <tbody id="list">
+                </tbody>
+            </table>
+        </div>
+           <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent mdui-center" id="back" style="margin-top: 16px;"><a href="index19.html" style="color: white;text-decoration: none;">返回</a></button>
+       
+           <button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent mdui-center" id="back" style="margin-top: 16px;"><a href="index.html" style="color: white;text-decoration: none;">回到首页</a></button>
+       
+        <div class="mdui-typo-body-2 mdui-text-center" style="margin: 16px;">Made by KK Studio.</div>
+    </div>
+    <script>
+        var list = document.getElementById("list");
+        var content = "";
+        var totalPhrase = 0;
+        var totalDuration = 0;
+        var getPhrases = new XMLHttpRequest();
+        getPhrases.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                phrases = JSON.parse(this.responseText);
+                for (i = 0; i < phrases.length; i++) {
+                    content += "<tr><th>" + phrases[i].zh + "</th>";
+                    content += "<th>" + phrases[i].en + "</th></tr>";
+                }
+                list.innerHTML = content;
+            }
+        };
+        getPhrases.open("GET", "phrases.json", true);
+        getPhrases.send();
+
+        function darkMode() {
+            if (localStorage.getItem("darkMode") == "true") {
+                localStorage.setItem("darkMode", "false");
+                document.body.classList.remove("mdui-theme-layout-dark");
+            } else {
+                localStorage.setItem("darkMode", "true");
+                document.body.classList.add("mdui-theme-layout-dark");
+            }
+        }
+        if (localStorage.getItem("darkMode") == "true") {
+            document.body.classList.add("mdui-theme-layout-dark");
+        }
+    </script>
+</body>
+
+</html>

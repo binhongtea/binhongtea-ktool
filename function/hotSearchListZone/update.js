@@ -1,4 +1,4 @@
-var version = 230729;
+var version = 230801;
 function update(){
     document.getElementById("updateDate").innerHTML =  "";
     document.getElementById("updateChange").innerHTML =  "";
@@ -17,11 +17,11 @@ function update(){
         if (VersionInfo.versionCode > version){
             document.getElementById("updateAvailable").style.display = "block";
         }
-        if (VersionInfo.versionCode = version){
+        if (VersionInfo.versionCode == version){
             document.getElementById("alreadyUpdate").style.display = "block";
         }
       }
     };
-    xmlHttp.open("GET","https://binhongtea.github.io/version.json",true);
+    xmlHttp.open("GET", "https://binhongtea.github.io/version.json", true);
     xmlHttp.send();
 }
