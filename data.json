@@ -148,4 +148,4 @@
         {"name" : "随机身份证", "url" : "./function/mysteriouCode/randomIDCard.html"},
         {"name" : "随机美国人身份证", "url" : "./function/mysteriouCode/randomamericanIDCard.html"},
         {"name" : "chatGPT3.0(内置apikey)", "url" : "./function/mysteriouCode/chatGPT3.0.html"}
-    ]
+    ]}
