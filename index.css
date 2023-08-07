@@ -73,65 +73,6 @@ input:focus {
     z-index: 999;
 }
 
-/* 返回置顶按钮样式 */
-
-#returntop {
-    display: none;
-    position: fixed;
-    top: 60%;
-    right: 10px;
-    width: 2rem;
-    cursor: pointer;
-    z-index: 999;
-}
-
-/* logo */
-
-#logo {
-    position: fixed;
-    bottom: 120px;
-    right: 10px;
-    width: 40px;
-    opacity: .9;
-    z-index: 999;
-}
-
-/* 反馈按钮 */
-
-#feedback {
-    position: fixed;
-    bottom: 60px;
-    right: 0;
-    padding: 10px;
-    border: none;
-    background-color: #fff;
-    border-radius: 8px;
-    color: #424242;
-    font-weight: bold;
-    opacity: .9;
-    z-index: 999;
-}
-
-#feedback:hover {
-    background-color: blanchedalmond;
-}
-
-/* 联系作者内容样式 */
-
-#exampleModal #exampleModalLabel {
-    font-size: 1.3rem;
-    text-shadow: -1px -1px 1px #369;
-}
-
-#exampleModal .modal-body > p {
-    font-size: .9rem;
-}
-
-#exampleModal .modal-body #authorQQ span,
-#exampleModal .modal-body #authormail span,
-#exampleModal .modal-body #authorCommunicationGroup span {
-    text-shadow: 1px 1px 1px #f40;
-}
 
 /* 下载样式 */
 

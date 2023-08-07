@@ -73,17 +73,7 @@ input:focus {
     z-index: 999;
 }
 
-/* 返回置顶按钮样式 */
 
-#returntop {
-    display: none;
-    position: fixed;
-    top: 60%;
-    right: 10px;
-    width: 2rem;
-    cursor: pointer;
-    z-index: 999;
-}
 
 /* logo */
 

@@ -148,54 +148,63 @@
         </ul>
         </div>
         <br><br><br><br>
-<!doctype html>
-<html> 
-    <head> 
-        <meta charset="UTF-8"> 
-        <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
-        <title>原神、崩坏语录 - 彬红茶™网站</title> 
-        <link rel="icon" type="image/x-icin" href="../../images/logo.ico">
-        <script src="../../tools/jQuery3.6.4.min.js"></script>
-        <script src="../../tools/axios.js"></script>
-        <script src="../../tools/clipboard.min.js"></script>
-          <link rel="stylesheet" href="../../tools/bootstrap.min.css">
-        <link rel="stylesheet" href="../css/function.css">
-    </head> 
-    <body>
-        <div class="result text-center"></div>
-           <div class="container">
-               <div class="notes text-center">
-                  <div>#无反应请检测网络#</div>
-                <div>#如果网络没问题，或许就是功能不能用了了#</div>
-            </div>
-            <div class="data text-center" style="margin-top: 30%;">
-                 <div class="copy" id="result" data-clipboard-target="#result"></div>
-                <div class="dataTips">#可以点击复制噢~#</div>
-               </div> 
-        </div>
-        <a class="refresh" href="javascript: void(0);" onclick="location.reload()">刷新</a>
-     <script>
-            $(function () {
-                   $('.container').fadeIn(300);
-                $('.result').html('请稍等').fadeIn(1000);
-                // ajax获得数据
-                axios.get('https://xiaobapi.top/api/xb/api/yulu.php').then((res) => {
-                    $('.copy').html(res.data)
-                    $('.data').fadeIn(500)
-                    $('.result').html('生成成功').fadeOut(3000)
-                }).catch((err) => {
-                    $('.result').html('网络或接口出错,接口问题请联系作者').fadeOut(3000)
-                })
-                // 文字点击复制
-                 new Clipboard('#result', {
-                    '#result': function(trigger) {
-                        return trigger.nextElementSibling
-                    }
-                });
-            })
-        </script>     
-    </body>
-</html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,user-scalable=no,minimal-ui">
+<title>404-undefined</title>
+<meta name="keywords" content="HTML5,炫酷吊灯,左右摆动,摆动动画,404错误,网页找不到">
+<meta name="description" content="HTML5炫酷吊灯左右摆动动画404错误网页找不到模板下载。简单实用，纯CSS实现，没有引入任何第三方js插件。更多源码www.dkewl.com"> 
+<link rel="stylesheet" type="text/css" href="main.css">
+<style type="text/css">
+      @font-face {
+          font-family: "element-icons";
+          src: url('chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.woff') format('woff'),
+          url('chrome-extension://moombeodfomdpjnpocobemoiaemednkg/fonts/element-icons.ttf ') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+      }
+  </style></head>
+<body>
+<header class="top-header">
+</header>
+
+<!--dust particel-->
+<div>
+  <div class="starsec"></div>
+  <div class="starthird"></div>
+  <div class="starfourth"></div>
+  <div class="starfifth"></div>
+</div>
+<!--Dust particle end-->
+
+
+<div class="lamp__wrap">
+  <div class="lamp">
+    <div class="cable"></div>
+    <div class="cover"></div>
+    <div class="in-cover">
+      <div class="bulb"></div>
+    </div>
+    <div class="light"></div>
+  </div>
+</div>
+<!-- END Lamp -->
+<section class="error">
+  <!-- Content -->
+  <div class="error__content">
+    <div class="error__message message">
+      <h1 class="message__title">网页维护中...</h1>
+      <p class="message__text">undefined websites,powerd by Binhongtea</p>
+    </div>
+    <div class="error__nav e-nav">
+      <a class="e-nav__link" href="../../index17.html" target="_blank"></a>
+    </div>
+  </div>
+  <!-- END Content -->
+
+</section>
+
+
+
+</body></html>
    <br>
         </footer>
         <a class="mdui-fab mdui-fab-fixed mdui-color-theme-accent mdui-fab-hide radius waves-block waves-light" id="fab" onclick="window.scrollTo(0,0);">

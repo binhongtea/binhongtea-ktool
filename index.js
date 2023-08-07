@@ -34,7 +34,7 @@ $(function () {
         // 输入框查询后保留数据
     setting('.sidebar .setting .set_inputRtention', 'inputRtention', true)
     // 功能链接数据加载
-    axios.get('https://lhshilin.github.io/jimu/allFunctionData.json').then((res) => {
+    axios.get('https://binhongtea.github.io/data.json').then((res) => {
         res = res.data;
         $('#homepage .row p').css('height', 'auto').html('')
         var fnnum = 0,
@@ -293,24 +293,7 @@ $(function () {
             window.location.reload()
         })
     })
-    // 更新日志数据输入
-    axios.get('https://lhshilin.github.io/jimu/log.json').then((res) => {
-        $('#toupdate > img').remove()
-        res = res.data;
-        $(res).each(function (i, v) {
-            $('#toupdate').append('<ul class="row"><li><span class="update-date">' + v.date + '</span><ul class="update-content"></ul></li></ul>')         
-            $(v.data).each(function (index, value) {
-                $('#toupdate > ul > li > ul').eq(i).append('<li></li>').children('li:last').html(value)
-            })          
-        })
-    }).catch((err) => {
-        $('#toupdate > img').css({
-            'animationPlayState' : 'paused',
-            'animation' : 'update_loaddingImgrotate'
-        }).attr('src', './images/bug.svg').on('click', function () {
-            window.location.reload()
-        })
-    });
+
     // 反馈功能 feedback
     (function () {
         var key = true,
