@@ -507,58 +507,12 @@
       <br>
         </div>  
         </div>
-        <br>
-        <footer class="mdui-text-center mdui-color-theme-50 auto-dark">
-        <br>
-        <div class="waves-circle">
-        <a class="mdui-btn mdui-btn-icon" href="mailto:kuang2713ben@163.com@163.com" mdui-tooltip="{content: '网易邮箱'}">
-        <i class="mdui-icon material-icons">email</i>
-        </a>
-        </div>
-        <div class="waves-circle" mdui-tooltip="{content: '微信'}" mdui-menu="{target: '#wechat1'}">
-        <button class="mdui-btn mdui-btn-icon">
-        <img src="images/WeChat-logo.png" class="mdui-img-fluid">
-        </button>
-        </div>
-        <div class="mdui-menu mdui-color-white" id="wechat1">
-        <img src="images/WeChat.png" class="mdui-img-fluid">
-        </div>
-        <div class="waves-circle">
-        <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'QQ'}" mdui-dialog="{target: '#qq'}">
-        <img src="images/QQ-logo.png" style="width:32px;height:32px;">
-        </button>
-        </div>
-        <div class="mdui-dialog" id="qq" style="width: 26.7%;height: 50%;">
-        <img src="images/QQ.jpg" style="width: 100%;height: 100%;">
-        </div>
-        <div class="waves-circle">
-        <a class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'Telegram'}" href="https://t.me/BGS_XNJ">
-        <i class="mdui-icon material-icons">send</i>
-        </a>
-        </div>
-        <br>
-        <p><label>前端框架：<a href="https://www.mdui.org/" class="footerlink">MDUI</a></label></p>
-        <p><label>开发工具：<a href="https://www.coolapk.com/apk/com.venter.easyweb" class="footerlink">EasyWeb IDE</a></label></p>
-        <p style="font-size: 16px;font-weight: bold;">2023 - KK Studio</p>
-        <br>
+       <br>
         </footer>
         <a class="mdui-fab mdui-fab-fixed mdui-color-theme-accent mdui-fab-hide radius waves-block waves-light" id="fab" onclick="window.scrollTo(0,0);">
         <i class="mdui-icon material-icons">keyboard_arrow_up</i>
         </a>
         <script src="toTop.js"></script>
-        <script>
-            function thumb(){
-                localStorage.thumb = Number(localStorage.thumb) + 1;
-                document.getElementById('thumbIcon').classList.add('mdui-text-color-theme');
-                  document.getElementById('thumb').innerHTML = localStorage.thumb;
-            }
-              if (localStorage.thumb && Number(localStorage.thumb) > 0){
-                document.getElementById('thumb').innerHTML = localStorage.thumb;
-                 document.getElementById('thumbIcon').classList.add('mdui-text-color-theme');
-              }else{
-                localStorage.thumb = 0;
-            }
-        </script>
     <div class="mdui-dialog mdui-color-theme-50" id="setTheme">
         <div class="mdui-toolbar" style="margin-top: 8px;padding-left: 8px;">
                <span class="mdui-typo-title">调色板</span>
@@ -674,7 +628,7 @@
                         <i class="mdui-radio-icon"></i>
                         Deep-Orange
                       </label>
-                      <label class="mdui-radio mdui-colmdui-text-color-brown" onclick="setPrimaryTheme('brown')">
+                      <label class="mdui-radio mdui-col mdui-text-color-brown" onclick="setPrimaryTheme('brown')">
                         <input type="radio" name="setPrimaryTheme" id="setPrimaryThemebrown"/>
                         <i class="mdui-radio-icon"></i>
                         Brown
@@ -712,7 +666,8 @@
                      <label class="mdui-radio mdui-col mdui-text-color-deep-purple" onclick="setAccentTheme('deep-purple')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemedeep-purple"/>
                         <i class="mdui-radio-icon"></i>
-                        Deep-Purple       </label>
+                        Deep-Purple
+                      </label>
                      <label class="mdui-radio mdui-col mdui-text-color-indigo" onclick="setAccentTheme('indigo')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemeindigo"/>
                         <i class="mdui-radio-icon"></i>
@@ -728,30 +683,6 @@
                         <i class="mdui-radio-icon"></i>
                         Light-Blue
                       </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-cyan" onclick="setAccentTheme('cyan')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemecyan"/>
-                        <i class="mdui-radio-icon"></i>
-                        Cyan
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-teal" onclick="setAccentTheme('teal')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemeteal"/>
-                        <i class="mdui-radio-icon"></i>
-                        Teal
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-green" onclick="setAccentTheme('green')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemegreen"/>
-                        <i class="mdui-radio-icon"></i>
-                        Green
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-light-green" onclick="setAccentTheme('light-green')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemelight-green"/>
-                        <i class="mdui-radio-icon"></i>
-                        Light-Green
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-lime" onclick="setAccentTheme('lime')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemelime"/>
-                        <i class="mdui-radio-icon"></i>
-                        Lime        </label>
                       <label class="mdui-radio mdui-col mdui-text-color-cyan" onclick="setAccentTheme('cyan')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemecyan"/>
                         <i class="mdui-radio-icon"></i>
@@ -796,9 +727,11 @@
                         <input type="radio" name="setAccentTheme" id="setAccentThemedeep-orange"/>
                         <i class="mdui-radio-icon"></i>
                         Deep-Orange
-                      </label>
+                          </label>
+              
                       <br><br>
-               </div>       </form>
+               </div>
+            </form>
         </div>
         <div class="mdui-dialog-actions">
             <div class="mdui-btn radius waves-circle" style="margin-bottom: 64px;width: 128px;" onclick="resetTheme()" mdui-dialog-close>恢复默认设置</div>
@@ -806,13 +739,13 @@
         </div>
     </div>
     </body>
- <div id="updateDialog" class="update-dialog">
+   <div id="updateDialog" class="update-dialog">
         <div class="update-dialog-title">最近更新</div>
-        <div class="update-dialog-content">2023年7月10日<br>-最后一项谷歌删除内容,菜单界面翻新至v1.02</div>   <div style="text-align: center;"><button class="update-dialog-btn" onclick="closeUpdateDialog()">我知道了</button></div>
+        <div class="update-dialog-content">2023年7月03日<br>-优化文件h5稳定性,新增加载png,菜单界面翻新至v1.02</div>  <div style="text-align: center;"><button class="update-dialog-btn" onclick="closeUpdateDialog()">我知道了</button></div>
     </div>
     <script>
         var page = "Websites";
-        var pageUpdateDate = 20230710;
+        var pageUpdateDate = 20230703;
     </script>
     <script src="pageUpdateDialog.js"></script>
     <script src="waves/waves.min.js"></script>
@@ -830,4 +763,3 @@
     Waves.init(config);
     </script>
 </html>
-  

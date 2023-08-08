@@ -1,4 +1,4 @@
-var version = 230807;
+var version = 230808;
 function update(){
     document.getElementById("updateDate").innerHTML =  "";
     document.getElementById("updateChange").innerHTML =  "";
