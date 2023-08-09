@@ -1,323 +1,335 @@
 <!doctype html>
-<html> 
-    <head> 
-        <meta charset="UTF-8"> 
-        <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"> 
-        <link rel="icon" href="images/favicon.jpg" type="image/x-icon"> 
-        <link rel="stylesheet" href="mdui/css/mdui.min.css">
-        <script src="mdui/js/mdui.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="waves/waves.min.css" />
-        <link rel="stylesheet" type="text/css" href="theme.css" />
-        <title>随机文案 - 彬红茶™网站</title>
-    </head> 
-    <body class="mdui-drawer-body-left"> 
-        <header class="mdui-appbar mdui-appbar-fixed mdui-appbar-inset mdui-shadow-0">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="mdui/css/mdui.min.css">
+    <script src="mdui/js/mdui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="waves/waves.min.css" />
+    <link rel="stylesheet" type="text/css" href="theme.css" />
+    <title>随机文案 - 彬红茶™网站</title>
+</head>
+
+<body class="mdui-drawer-body-left">
+    <header class="mdui-appbar mdui-appbar-fixed mdui-appbar-inset mdui-shadow-0">
         <div class="mdui-toolbar mdui-color-theme-50">
-        <a class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-drawer="{target: '#drawer', swipe: true}">
-        <i class="mdui-icon material-icons">menu</i>
-        </a>
-        <a class="mdui-typo-headline" href="index.html">彬红茶™网站</a>
-        <div class="mdui-toolbar-spacer"></div>
-        <a class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-dialog="{target: '#offline'}" mdui-tooltip="{content: '获取离线版 (需wifi)'}" onclick="update()">
-        <i class="mdui-icon material-icons">cloud_download</i>
-        </a>
-        <a id="switch-theme" class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-tooltip="{content: '打开调色板'}" mdui-dialog="{target: '#setTheme'}">
-        <i class="mdui-icon material-icons">color_lens</i>
-        </a>
+            <a class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-drawer="{target: '#drawer', swipe: true}">
+                <i class="mdui-icon material-icons">menu</i>
+            </a>
+            <a class="mdui-typo-headline" href="index.html">彬红茶™网站</a>
+            <div class="mdui-toolbar-spacer"></div>
+            <a class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-dialog="{target: '#offline'}" mdui-tooltip="{content: '获取离线版 (需wifi)'}" onclick="update()">
+                <i class="mdui-icon material-icons">cloud_download</i>
+            </a>
+            <a id="switch-theme" class="mdui-btn mdui-btn-icon waves-circle toolbar-btn" mdui-tooltip="{content: '打开调色板'}" mdui-dialog="{target: '#setTheme'}">
+                <i class="mdui-icon material-icons">color_lens</i>
+            </a>
         </div>
-        </header>
-        <div class="mdui-dialog mdui-color-theme-50" id="offline">
+    </header>
+    <div class="mdui-dialog mdui-color-theme-50" id="offline">
         <div class="mdui-dialog-title">获取离线版，密码0000</div>
         <div class="mdui-dialog-content">
-        <div class="mdui-spinner mdui-center" id="updateSpinner"></div>
-        <div id="updateDate"></div>
-        <div id="updateChange"></div>
-        <p class="mdui-text-color-red" id="updateNote"></p>
-        <p class="mdui-text-color-green" id="alreadyUpdate" style="display: none;">已是最新版本</p>
-          <p class="mdui-text-color-green" id="updateAvailable" style="display: none;">有可用的版本更新</p><br><br><br>
+            <div class="mdui-spinner mdui-center" id="updateSpinner"></div>
+            <div id="updateDate"></div>
+            <div id="updateChange"></div>
+            <p class="mdui-text-color-red" id="updateNote"></p>
+            <p class="mdui-text-color-green" id="alreadyUpdate" style="display: none;">已是最新版本</p>
+            <p class="mdui-text-color-green" id="updateAvailable" style="display: none;">有可用的版本更新</p><br><br><br>
         </div>
         <div class="mdui-dialog-actions mdui-dialog-actions-stacked" style="padding: 8px;">
-        <a href="https://binhongcha.lanzoue.com/b03qdk82d" class="waves-block radius"><button class="mdui-btn">获取最新版本</button></a>
-         <a href="version.html" class="waves-block radius"><button class="mdui-btn">关于本版本</button></a>
-      <div class="waves-block radius"><button class="mdui-btn" mdui-dialog-close>关闭</button></div>
+            <a href="https://binhongcha.lanzoue.com/b03qdk82d" class="waves-block radius"><button class="mdui-btn">获取最新版本</button></a>
+            <a href="version.html" class="waves-block radius"><button class="mdui-btn">关于本版本</button></a>
+            <div class="waves-block radius"><button class="mdui-btn" mdui-dialog-close>关闭</button></div>
         </div>
         <script src="update.js"></script>
-        </div>
-        <div class="mdui-drawer mdui-color-theme-50" id="drawer">
-        <img class="mdui-img-fluid" src="images/BGS_IMAGE_20210919.jpg"/ id="bgsImage">
+    </div>
+    <div class="mdui-drawer mdui-color-theme-50" id="drawer">
+        <img class="mdui-img-fluid" src="images/BGS_IMAGE_20210919.jpg" / id="bgsImage">
         <ul class="mdui-list" mdui-collapse="{accordion: true}" style="padding: 8px;" id="mduiDrawerList">
-        <a href="index.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-red">home</i>
-        <div class="mdui-list-item-content">首页</div>
-         </li>
-        </a>
-        <a href="index17.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange">🏜</i>
-        <div class="mdui-list-item-content">超多功能</div>
-        </li>
-        </a>
-        <a href="sysImg.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-orange">storage</i>
-        <div class="mdui-list-item-content">系统镜像</div>
-        </li>
-        </a>
-        <a href="apps.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-green">apps</i>
-        <div class="mdui-list-item-content">应用程序</div>
-        </li>
-        </a>
-        <a href="websites.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">public</i>
-        <div class="mdui-list-item-content">网络站点</div>
-          </li>
-        </a>
-        <a href="index11.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-light-blue">✪</i>
-        <div class="mdui-list-item-content">音乐播放器</div>
-        </li>
-        </a>
-        <a href="index5.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-grey">🌟</i>
-        <div class="mdui-list-item-content">留言系统</div>
-       </li>
-        </a>
-        <a href="index7.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-lime">✴️</i>
-        <div class="mdui-list-item-content">小备忘录</div>
-        </li>
-        </a>
-        <a href="more.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-cyan">attach_file</i>
-        <div class="mdui-list-item-content">更多资源</div>
-        </li>
-        </a>
-        <a href="index4.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-brown">attach_file</i>
-        <div class="mdui-list-item-content">小小画板(beta)</div>
-        </li>
-        </a>
-        <a href="tools.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">build</i>
-        <div class="mdui-list-item-content">JS工具</div>
-        </li>
-        </a>
-        <a href="index9.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">🔯</i>
-        <div class="mdui-list-item-content">ChatGPT</div>
-     
-        </li>
-        </a>
-        <a href="about.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">info</i>
-        <div class="mdui-list-item-content">关于我们</div>
-        </li>
-        </a>
-        <a href="download.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-yellow">storage</i>
-        <div class="mdui-list-item-content">下载链接</div>
-        </li>
-        </a>
-        <a href="index16.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue-grey">📳</i>
-        <div class="mdui-list-item-content">配音秀</div>
-        </li>
-        </a>
-        <a href="gamelist.html" class="waves-block radius">
-        <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">storage</i>
-        <div class="mdui-list-item-content">游戏列表</div>
-        </a>
-        </li>
-        </a>
+            <a href="index.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-red">home</i>
+                    <div class="mdui-list-item-content">首页</div>
+                </li>
+            </a>
+            <a href="index17.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange">🏜</i>
+                    <div class="mdui-list-item-content">超多功能</div>
+                </li>
+            </a>
+            <a href="sysImg.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-orange">storage</i>
+                    <div class="mdui-list-item-content">系统镜像</div>
+                </li>
+            </a>
+            <a href="apps.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-green">apps</i>
+                    <div class="mdui-list-item-content">应用程序</div>
+                </li>
+            </a>
+            <a href="websites.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">public</i>
+                    <div class="mdui-list-item-content">网络站点</div>
+                </li>
+            </a>
+            <a href="index11.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-light-blue">✪</i>
+                    <div class="mdui-list-item-content">音乐播放器</div>
+                </li>
+            </a>
+            <a href="index5.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-grey">🌟</i>
+                    <div class="mdui-list-item-content">留言系统</div>
+                </li>
+            </a>
+            <a href="index7.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-lime">✴️</i>
+                    <div class="mdui-list-item-content">小备忘录</div>
+                </li>
+            </a>
+            <a href="more.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-cyan">attach_file</i>
+                    <div class="mdui-list-item-content">更多资源</div>
+                </li>
+            </a>
+            <a href="index4.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-brown">attach_file</i>
+                    <div class="mdui-list-item-content">小小画板(beta)</div>
+                </li>
+            </a>
+            <a href="tools.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">build</i>
+                    <div class="mdui-list-item-content">JS工具</div>
+                </li>
+            </a>
+            <a href="index9.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">🔯</i>
+                    <div class="mdui-list-item-content">ChatGPT</div>
+
+                </li>
+            </a>
+            <a href="about.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">info</i>
+                    <div class="mdui-list-item-content">关于我们</div>
+                </li>
+            </a>
+            <a href="download.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-yellow">storage</i>
+                    <div class="mdui-list-item-content">下载链接</div>
+                </li>
+            </a>
+            <a href="index16.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue-grey">📳</i>
+                    <div class="mdui-list-item-content">配音秀</div>
+                </li>
+            </a>
+            <a href="gamelist.html" class="waves-block radius">
+                <li class="mdui-list-item">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">storage</i>
+                    <div class="mdui-list-item-content">游戏列表</div>
+            </a>
+            </li>
+            </a>
+    </div>
+    </ul>
+    </div>
+    <br><br><br><br>
+    <html>
+
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-image: url("1.png");
+                background-size: cover;
+                height: 99vh;
+            }
+
+            #cardContainer {
+                height: 90vh;
+                background-color: Transparent;
+                overflow: auto;
+            }
+
+            .card {
+                position: relative;
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 5px;
+                padding: 10px;
+                text-align: left;
+                width: 300px;
+                height: 50px;
+                max-height: 100px;
+                margin: 10px auto;
+                box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+                opacity: 0;
+                animation-name: fade-in;
+                animation-duration: 1s;
+                animation-fill-mode: forwards;
+                backdrop-filter: blur(1px);
+            }
+
+            @keyframes fade-in {
+                from {
+                    opacity: 0;
+                }
+
+                to {
+                    opacity: 1;
+                }
+            }
+
+            #message {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+            .generate-button {
+                display: block;
+                margin: 10px auto;
+                padding: 10px 20px;
+                font-weight: bold;
+                color: rgb(0, 0, 0, .4);
+                background-color: rgba(255, 255, 255, 0.5);
+                border-width: 0px;
+                backdrop-filter: blur(0px);
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .generate-button:hover {
+                background-color: rgb(000, 229, 000, .2);
+            }
+
+            .copy-button {
+                position: absolute;
+                bottom: 5px;
+                right: 5px;
+                padding: 2px 6px;
+                font-weight: bold;
+                color: #fcfcfc;
+                background-color: rgb(0, 0, 0, 0.1);
+                border-width: 0px;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+
+            .copy-button:hover {
+                background-color: rgb(000, 229, 000, .2);
+            }
+
+            .copied {
+                background-color: rgb(0, 229, 229, .5);
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div id="cardContainer"></div>
+
+        <button class="generate-button" onclick="restart()">换一组文案</button>
+
+        <script>
+            function generateQuotes() {
+                const apiUrl = 'https://v1.hitokoto.cn/';
+
+                return fetch(apiUrl)
+                    .then(response => response.json())
+                    .then(data => {
+                        const quote = data.hitokoto;
+                        return quote;
+                    })
+                    .catch(error => {
+                        console.error('随机文案获取失败:', error);
+                        showMessage("获取随机文案失败");
+                    });
+            }
+
+            async function createCard() {
+                const cardContainer = document.getElementById('cardContainer');
+                cardContainer.innerHTML = '';
+
+                for (let i = 0; i < 10; i++) {
+                    const quote = await generateQuotes();
+                    const card = document.createElement('div');
+                    card.classList.add('card');
+                    card.textContent = quote;
+
+                    const copyButton = document.createElement('button');
+                    copyButton.classList.add('copy-button');
+                    copyButton.textContent = '复制';
+
+                    copyButton.addEventListener('click', () => {
+                        copyToClipboard(quote, card);
+                    });
+
+                    card.appendChild(copyButton);
+                    cardContainer.appendChild(card);
+                }
+            }
+
+            function restart() {
+                createCard();
+            }
+
+            function copyToClipboard(text, card) {
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+
+                card.classList.add('copied');
+                setTimeout(() => {
+                    card.classList.remove('copied');
+                }, 1000);
+            }
+
+            createCard();
+        </script>
+    </body>
+
+    </html>
+      <br>
+        </div>  
         </div>
-        </ul>
-        </div>
-        <br><br><br><br>
-<html>
-<head>
-<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<style>
-
-* {
-  margin:0;
-  padding:0;
-}
-
-body{
-  background-image:url("1.png");
-  background-size:cover;
-  height:99vh;
-}
-
-#cardContainer{
-  height:90vh;
-  background-color:Transparent;
-  overflow: auto;
-}
-
-.card {
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.5); 
-  border-radius: 5px;
-  padding: 10px;
-  text-align: left;
-  width: 300px;
-  height: 50px;
-  max-height: 100px;
-  margin: 10px auto;
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  animation-name: fade-in;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  backdrop-filter: blur(1px); 
-}
-
-@keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; } 
-}
-
-#message {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.generate-button {
-  display: block;
-  margin: 10px auto;
-  padding: 10px 20px;
-  font-weight:bold;
-  color:rgb(0,0,0,.4);
-  background-color: rgba(255, 255, 255, 0.5);
-  border-width:0px;
-  backdrop-filter: blur(0px);  
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.generate-button:hover {
-  background-color: rgb(000,229,000,.2);
-}
-
-.copy-button {
-  position: absolute;
-  bottom:5px;
-  right: 5px;
-  padding: 2px 6px;
-  font-weight:bold;
-  color:#fcfcfc;
-  background-color: rgb(0,0,0,0.1);
-  border-width:0px;
-  border-radius: 3px;
-  cursor: pointer;
-}
-.copy-button:hover {
-  background-color: rgb(000,229,000,.2);
-}
-
-.copied {
-  background-color: rgb(0,229,229,.5);
-}
-
-</style>
-
-</head>
-<body>
-<div id="cardContainer"></div>
-
-<button class="generate-button" onclick="restart()">换一组文案</button>
-
-<script>
-function generateQuotes() {
-  const apiUrl = 'https://v1.hitokoto.cn/';
-  
-  return fetch(apiUrl)
-    .then(response => response.json())
-    .then(data => {
-      const quote = data.hitokoto;
-      return quote;
-    })
-    .catch(error => {
-      console.error('随机文案获取失败:', error);
-      showMessage("获取随机文案失败");
-    });
-}
-
-async function createCard() {
-  const cardContainer = document.getElementById('cardContainer');
-  cardContainer.innerHTML = '';
-  
-  for (let i = 0; i < 10; i++) {
-    const quote = await generateQuotes();
-    const card = document.createElement('div');
-    card.classList.add('card');
-    card.textContent = quote;
-    
-    const copyButton = document.createElement('button');
-    copyButton.classList.add('copy-button');
-    copyButton.textContent = '复制';
-    
-    copyButton.addEventListener('click', () => {
-      copyToClipboard(quote, card);
-    });
-    
-    card.appendChild(copyButton);
-    cardContainer.appendChild(card);
-  }
-}
-
-function restart() {
-  createCard();
-}
-
-function copyToClipboard(text, card) {
-  const textarea = document.createElement('textarea');
-  textarea.value = text;
-  document.body.appendChild(textarea);
-  textarea.select();
-  document.execCommand('copy');
-  document.body.removeChild(textarea);
-  
-  card.classList.add('copied');
-  setTimeout(() => {
-    card.classList.remove('copied');
-  }, 1000);
-}
-
-createCard();
-</script>
-</body>
-</html>
-   <br>
+        <br>
         <footer class="mdui-text-center mdui-color-theme-50 auto-dark">
         <br>
         <div class="waves-circle">
-        <a class="mdui-btn mdui-btn-icon" href="mailto:kuang2713ben@163.com" mdui-tooltip="{content: '网易邮箱'}">
+        <a class="mdui-btn mdui-btn-icon" href="mailto:kuang2713ben@163.com@163.com" mdui-tooltip="{content: '网易邮箱'}">
         <i class="mdui-icon material-icons">email</i>
         </a>
         </div>
-        <div class="waves-circle" mdui-tooltip="{content: '微信'}" mdui-menu="{target: '#wechat'}">
+        <div class="waves-circle" mdui-tooltip="{content: '微信'}" mdui-menu="{target: '#wechat1'}">
         <button class="mdui-btn mdui-btn-icon">
         <img src="images/WeChat-logo.png" class="mdui-img-fluid">
         </button>
         </div>
-        <div class="mdui-menu mdui-color-white" id="wechat">
+        <div class="mdui-menu mdui-color-white" id="wechat1">
         <img src="images/WeChat.png" class="mdui-img-fluid">
         </div>
         <div class="waves-circle">
@@ -328,9 +340,7 @@ createCard();
         <div class="mdui-dialog" id="qq" style="width: 26.7%;height: 50%;">
         <img src="images/QQ.jpg" style="width: 100%;height: 100%;">
         </div>
-        <div class="waves-circle">
-        <a class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'Telegram'}" href="https://t.me/BGS_XNJ">
-        <i class="mdui-icon material-icons">send</i>
+ 
         </a>
         </div>
         <br>
@@ -343,6 +353,19 @@ createCard();
         <i class="mdui-icon material-icons">keyboard_arrow_up</i>
         </a>
         <script src="toTop.js"></script>
+        <script>
+            function thumb(){
+                localStorage.thumb = Number(localStorage.thumb) + 1;
+                document.getElementById('thumbIcon').classList.add('mdui-text-color-theme');
+                  document.getElementById('thumb').innerHTML = localStorage.thumb;
+            }
+              if (localStorage.thumb && Number(localStorage.thumb) > 0){
+                document.getElementById('thumb').innerHTML = localStorage.thumb;
+                 document.getElementById('thumbIcon').classList.add('mdui-text-color-theme');
+              }else{
+                localStorage.thumb = 0;
+            }
+        </script>
     <div class="mdui-dialog mdui-color-theme-50" id="setTheme">
         <div class="mdui-toolbar" style="margin-top: 8px;padding-left: 8px;">
                <span class="mdui-typo-title">调色板</span>
@@ -458,7 +481,7 @@ createCard();
                         <i class="mdui-radio-icon"></i>
                         Deep-Orange
                       </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-brown" onclick="setPrimaryTheme('brown')">
+                      <label class="mdui-radio mdui-colmdui-text-color-brown" onclick="setPrimaryTheme('brown')">
                         <input type="radio" name="setPrimaryTheme" id="setPrimaryThemebrown"/>
                         <i class="mdui-radio-icon"></i>
                         Brown
@@ -496,8 +519,7 @@ createCard();
                      <label class="mdui-radio mdui-col mdui-text-color-deep-purple" onclick="setAccentTheme('deep-purple')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemedeep-purple"/>
                         <i class="mdui-radio-icon"></i>
-                        Deep-Purple
-                      </label>
+                        Deep-Purple       </label>
                      <label class="mdui-radio mdui-col mdui-text-color-indigo" onclick="setAccentTheme('indigo')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemeindigo"/>
                         <i class="mdui-radio-icon"></i>
@@ -536,68 +558,7 @@ createCard();
                       <label class="mdui-radio mdui-col mdui-text-color-lime" onclick="setAccentTheme('lime')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemelime"/>
                         <i class="mdui-radio-icon"></i>
-                        Lime
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-yellow" onclick="setAccentTheme('yellow')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemeyellow"/>
-                        <i class="mdui-radio-icon"></i>
-                        Yellow
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-amber" onclick="setAccentTheme('amber')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemeamber"/>
-                        <i class="mdui-radio-icon"></i>
-                        Amber
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-orange" onclick="setAccentTheme('orange')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemeorange"/>
-                        <i class="mdui-radio-icon"></i>
-                        Orange
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-deep-orange" onclick="setAccentTheme('deep-orange')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemedeep-orange"/>
-                        <i class="mdui-radio-icon"></i>
-                        Deep-Orange
-                          </label>
-               </div>
-            </form>
-            <p style="font-size: 16px;">强调色</p>
-            <form>
-                <div class="mdui-row-xs-2 mdui-row-sm-3 mdui-row-md-4 mdui-row-lg-5">
-                       <label class="mdui-radio mdui-col mdui-text-color-red" onclick="setAccentTheme('red')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemered"/>
-                        <i class="mdui-radio-icon"></i>
-                        Red
-                      </label>
-                     <label class="mdui-radio mdui-col mdui-text-color-pink" onclick="setAccentTheme('pink')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemepink"/>
-                        <i class="mdui-radio-icon"></i>
-                        Pink
-                      </label>
-                     <label class="mdui-radio mdui-col mdui-text-color-purple" onclick="setAccentTheme('purple')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemepurple"/>
-                        <i class="mdui-radio-icon"></i>
-                        Purple
-                      </label>
-                     <label class="mdui-radio mdui-col mdui-text-color-deep-purple" onclick="setAccentTheme('deep-purple')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemedeep-purple"/>
-                        <i class="mdui-radio-icon"></i>
-                        Deep-Purple
-                      </label>
-                     <label class="mdui-radio mdui-col mdui-text-color-indigo" onclick="setAccentTheme('indigo')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemeindigo"/>
-                        <i class="mdui-radio-icon"></i>
-                        Indigo
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-blue" onclick="setAccentTheme('blue')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemeblue"/>
-                        <i class="mdui-radio-icon"></i>
-                        Blue
-                      </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-light-blue" onclick="setAccentTheme('light-blue')">
-                        <input type="radio" name="setAccentTheme" id="setAccentThemelight-blue"/>
-                        <i class="mdui-radio-icon"></i>
-                        Light-Blue
-                      </label>
+                        Lime        </label>
                       <label class="mdui-radio mdui-col mdui-text-color-cyan" onclick="setAccentTheme('cyan')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemecyan"/>
                         <i class="mdui-radio-icon"></i>
@@ -644,8 +605,7 @@ createCard();
                         Deep-Orange
                       </label>
                       <br><br>
-               </div>
-            </form>
+               </div>       </form>
         </div>
         <div class="mdui-dialog-actions">
             <div class="mdui-btn radius waves-circle" style="margin-bottom: 64px;width: 128px;" onclick="resetTheme()" mdui-dialog-close>恢复默认设置</div>
@@ -653,14 +613,13 @@ createCard();
         </div>
     </div>
     </body>
-    <div id="updateDialog" class="update-dialog">
+ <div id="updateDialog" class="update-dialog">
         <div class="update-dialog-title">最近更新</div>
-        <div class="update-dialog-content">2023.7.18:新增本界面</div>
-        <div style="text-align: center;"><button class="update-dialog-btn" onclick="closeUpdateDialog()">我知道了</button></div>
+        <div class="update-dialog-content">2023年7月10日<br>-最后一项谷歌删除内容,菜单界面翻新至v1.02</div>   <div style="text-align: center;"><button class="update-dialog-btn" onclick="closeUpdateDialog()">我知道了</button></div>
     </div>
     <script>
         var page = "Websites";
-        var pageUpdateDate = 20230718;
+        var pageUpdateDate = 20230710;
     </script>
     <script src="pageUpdateDialog.js"></script>
     <script src="waves/waves.min.js"></script>
