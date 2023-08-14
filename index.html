@@ -9,10 +9,14 @@
         <link rel="stylesheet" type="text/css" href="waves/waves.min.css" />
         <link rel="stylesheet" type="text/css" href="theme.css" />
         <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
-        <title>彬红茶小站 • 首页</title>
-        <meta name=“Description” content=“KK工具站，一个资源分享站，致力于收集实用与有趣的资源。” />
-        <meta name=“Keywords” content=“资源 工具” />
-    
+            <link rel="stylesheet" href="mdui/css/mdui.min.css">
+        <script src="mdui/js/mdui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="waves/waves.min.css" />
+        <link rel="stylesheet" type="text/css" href="theme.css" />
+      
+        <title>彬红茶小站</title>
+        
+
         <body class="mdui-drawer-body-left"> 
         <header class="mdui-appbar mdui-appbar-fixed mdui-appbar-inset mdui-shadow-0">
         <div class="mdui-toolbar mdui-color-theme-50">
@@ -46,6 +50,7 @@
         </div>
         <script src="update.js"></script>
         </div>
+        
         <div class="mdui-drawer mdui-color-theme-50" id="drawer">
         <img class="mdui-img-fluid" src="images/BGS_IMAGE_20210919.jpg"/ id="bgsImage">
         <ul class="mdui-list" mdui-collapse="{accordion: true}" style="padding: 8px;" id="mduiDrawerList">
@@ -150,19 +155,20 @@
         </ul>
         </div>
         <br><br><br><br>
+        
         <div class="mdui-card mdui-m-l-2 mdui-m-r-2 mdui-m-t-2 mdui-m-b-2 mdui-shadow-8">
             <div class="mdui-m-l-2 mdui-m-r-2 mdui-m-t-2 mdui-m-b-2">
             <h1 class="mdui-text-color-theme title">彬红茶™网站</h1>
-        <div class="mdui-text-center"> 
+        <div class="mdui-text-center">
             <img src="images/114514.jpg" class="mdui-shadow-4 mdui-img-fluid" style="border-radius: 10px;margin-left: auto;margin-right: auto;max-height: 96px;"> 
             <br>
             <p style="font-size: 16px;"</p>
-            <a class="mdui-text-color-theme-text" >꧁欢迎来到KK工具站꧂</a>
+            <a class="mdui-text-color-theme-text" >꧁欢迎来到彬红茶小站꧂</a>
               
                </a><div>
-               <a class="mdui-text-color-theme-text" href="关于 Ktool 的用户须知v1.04.docx">꧁点我查看用户须知(要wifi,离线版别点)꧂<a>
-         
-          </a>  <div class="mdui-divider"></div><br> 
+            
+          
+           <div class="mdui-divider"></div><br> 
             <ul class="mdui-list">
             <div class="mdui-row-xs-1 mdui-row-sm-2 mdui-row-md-2 mdui-row-lg-3 mdui-row-gapless">
             <a href="index17.html" class="mdui-col">
@@ -339,22 +345,23 @@
             </a> 
             </div>
             </ul>
-        </div>
+         <br>
+        </div>  
         </div>
         <br>
         <footer class="mdui-text-center mdui-color-theme-50 auto-dark">
         <br>
         <div class="waves-circle">
-        <a class="mdui-btn mdui-btn-icon" href="mailto:kuang2713ben@163.com" mdui-tooltip="{content: '网易邮箱'}">
+        <a class="mdui-btn mdui-btn-icon" href="mailto:kuang2713ben@163.com@163.com" mdui-tooltip="{content: '网易邮箱'}">
         <i class="mdui-icon material-icons">email</i>
         </a>
         </div>
-        <div class="waves-circle" mdui-tooltip="{content: '微信'}" mdui-menu="{target: '#wechat'}">
+        <div class="waves-circle" mdui-tooltip="{content: '微信'}" mdui-menu="{target: '#wechat1'}">
         <button class="mdui-btn mdui-btn-icon">
         <img src="images/WeChat-logo.png" class="mdui-img-fluid">
         </button>
         </div>
-        <div class="mdui-menu mdui-color-white" id="wechat">
+        <div class="mdui-menu mdui-color-white" id="wechat1">
         <img src="images/WeChat.png" class="mdui-img-fluid">
         </div>
         <div class="waves-circle">
@@ -365,8 +372,10 @@
         <div class="mdui-dialog" id="qq" style="width: 26.7%;height: 50%;">
         <img src="images/QQ.jpg" style="width: 100%;height: 100%;">
         </div>
- 
-     
+       
+        </a>
+        
+        <br>
         <p><label>前端框架：<a href="https://www.mdui.org/" class="footerlink">MDUI</a></label></p>
         <p><label>开发工具：<a href="https://www.coolapk.com/apk/com.venter.easyweb" class="footerlink">EasyWeb IDE</a></label></p>
         <p style="font-size: 16px;font-weight: bold;">2023 - KK Studio</p>
@@ -376,7 +385,20 @@
         <i class="mdui-icon material-icons">keyboard_arrow_up</i>
         </a>
         <script src="toTop.js"></script>
-        <div class="mdui-dialog mdui-color-theme-50" id="setTheme">
+        <script>
+            function thumb(){
+                localStorage.thumb = Number(localStorage.thumb) + 1;
+                document.getElementById('thumbIcon').classList.add('mdui-text-color-theme');
+                  document.getElementById('thumb').innerHTML = localStorage.thumb;
+            }
+              if (localStorage.thumb && Number(localStorage.thumb) > 0){
+                document.getElementById('thumb').innerHTML = localStorage.thumb;
+                 document.getElementById('thumbIcon').classList.add('mdui-text-color-theme');
+              }else{
+                localStorage.thumb = 0;
+            }
+        </script>
+    <div class="mdui-dialog mdui-color-theme-50" id="setTheme">
         <div class="mdui-toolbar" style="margin-top: 8px;padding-left: 8px;">
                <span class="mdui-typo-title">调色板</span>
                <div class="mdui-toolbar-spacer"></div>
@@ -491,7 +513,7 @@
                         <i class="mdui-radio-icon"></i>
                         Deep-Orange
                       </label>
-                      <label class="mdui-radio mdui-col mdui-text-color-brown" onclick="setPrimaryTheme('brown')">
+                      <label class="mdui-radio mdui-colmdui-text-color-brown" onclick="setPrimaryTheme('brown')">
                         <input type="radio" name="setPrimaryTheme" id="setPrimaryThemebrown"/>
                         <i class="mdui-radio-icon"></i>
                         Brown
@@ -529,8 +551,7 @@
                      <label class="mdui-radio mdui-col mdui-text-color-deep-purple" onclick="setAccentTheme('deep-purple')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemedeep-purple"/>
                         <i class="mdui-radio-icon"></i>
-                        Deep-Purple
-                      </label>
+                        Deep-Purple       </label>
                      <label class="mdui-radio mdui-col mdui-text-color-indigo" onclick="setAccentTheme('indigo')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemeindigo"/>
                         <i class="mdui-radio-icon"></i>
@@ -546,6 +567,30 @@
                         <i class="mdui-radio-icon"></i>
                         Light-Blue
                       </label>
+                      <label class="mdui-radio mdui-col mdui-text-color-cyan" onclick="setAccentTheme('cyan')">
+                        <input type="radio" name="setAccentTheme" id="setAccentThemecyan"/>
+                        <i class="mdui-radio-icon"></i>
+                        Cyan
+                      </label>
+                      <label class="mdui-radio mdui-col mdui-text-color-teal" onclick="setAccentTheme('teal')">
+                        <input type="radio" name="setAccentTheme" id="setAccentThemeteal"/>
+                        <i class="mdui-radio-icon"></i>
+                        Teal
+                      </label>
+                      <label class="mdui-radio mdui-col mdui-text-color-green" onclick="setAccentTheme('green')">
+                        <input type="radio" name="setAccentTheme" id="setAccentThemegreen"/>
+                        <i class="mdui-radio-icon"></i>
+                        Green
+                      </label>
+                      <label class="mdui-radio mdui-col mdui-text-color-light-green" onclick="setAccentTheme('light-green')">
+                        <input type="radio" name="setAccentTheme" id="setAccentThemelight-green"/>
+                        <i class="mdui-radio-icon"></i>
+                        Light-Green
+                      </label>
+                      <label class="mdui-radio mdui-col mdui-text-color-lime" onclick="setAccentTheme('lime')">
+                        <input type="radio" name="setAccentTheme" id="setAccentThemelime"/>
+                        <i class="mdui-radio-icon"></i>
+                        Lime        </label>
                       <label class="mdui-radio mdui-col mdui-text-color-cyan" onclick="setAccentTheme('cyan')">
                         <input type="radio" name="setAccentTheme" id="setAccentThemecyan"/>
                         <i class="mdui-radio-icon"></i>
@@ -592,39 +637,16 @@
                         Deep-Orange
                       </label>
                       <br><br>
-               </div>
-            </form>
+               </div>       </form>
         </div>
         <div class="mdui-dialog-actions">
-               <div class="mdui-btn radius waves-circle" style="margin-bottom: 64px;width: 128px;" onclick="resetTheme()" mdui-dialog-close>恢复默认设置</div>
+            <div class="mdui-btn radius waves-circle" style="margin-bottom: 64px;width: 128px;" onclick="resetTheme()" mdui-dialog-close>恢复默认设置</div>
             <div class="mdui-btn radius waves-circle" style="margin-bottom: 64px;" mdui-dialog-close>确定</div>
         </div>
     </div>
     </body>
-    <script>
-        var offline = new mdui.Dialog('#offline', {history: false});
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-            var VersionInfo = JSON.parse(this.responseText);
-            if (VersionInfo.versionCode > version){
-                if (localStorage.getItem("doNotShowUpdateOffline" + VersionInfo.versionCode) != "true"){
-                    mdui.snackbar({
-                        message: '有可用的版本更新',
-                        buttonText: '让我看看',
-                           onButtonClick: function(){
-                            offline.open();
-                            update();
-                            localStorage.setItem("doNotShowUpdateOffline" + VersionInfo.versionCode, "true");
-                          }
-                    });
-                }
-            }
-          }
-        };
-        xmlhttp.open("GET", "https://binhongtea.github.io/version.json", true);
-        xmlhttp.send();
- 
+
+    </script>
     <script src="pageUpdateDialog.js"></script>
     <script src="waves/waves.min.js"></script>
     <script src="setTheme.js"></script>
@@ -639,5 +661,4 @@
     Waves.attach('.waves-light',['waves-light']);
     Waves.attach('.waves-classic',['waves-classic']);
     Waves.init(config);
-      </script>
-</html>
+    </script>
